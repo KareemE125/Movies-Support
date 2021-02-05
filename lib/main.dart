@@ -60,7 +60,7 @@ Container Splach_Screen(BuildContext context)
       decoration: BoxDecoration(
       color: Colors.white70,
       image: DecorationImage(
-      image: AssetImage('images/mov/splach.jpg'),
+      image: AssetImage('assets/images/mov/splach.jpg'),
       fit: BoxFit.cover,
 
      ),

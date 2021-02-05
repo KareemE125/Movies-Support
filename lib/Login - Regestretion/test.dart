@@ -13,7 +13,7 @@ class _testState extends State<test> {
   bool header3=false;
   bool down=false;
   double val1=0.8;
-  String image='images/mov/cover2.jpg';
+  String image='assets/images/mov/cover2.jpg';
 
   @override
   void initState()
@@ -137,7 +137,7 @@ Container co(BuildContext context)
           decoration: BoxDecoration(
             color: Colors.white70,
             image: DecorationImage(
-              image: AssetImage('images/mov/jocker.jpg'),
+              image: AssetImage('assets/images/mov/jocker.jpg'),
               fit: BoxFit.cover,
 
             ),
@@ -150,7 +150,7 @@ Container co(BuildContext context)
           decoration: BoxDecoration(
             color: Colors.white70,
             image: DecorationImage(
-              image: AssetImage('images/mov/kingKong.jpg'),
+              image: AssetImage('assets/images/mov/kingKong.jpg'),
               fit: BoxFit.cover,
 
             ),

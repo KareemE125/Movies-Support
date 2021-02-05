@@ -1,8 +1,7 @@
-
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gooey_carousel/gooey_carrousel.dart';
-//llllllllllllllll
+
 class login extends StatefulWidget {
   @override
   _loginState createState() => _loginState();
@@ -23,20 +22,18 @@ final FormKey=GlobalKey<FormState>();
   String check_User_Name(String val)
   {
       if(val.isEmpty)
-      return 'Please Enter Your Email';
+       return 'Please Enter Your Email';
       else if(!val.endsWith('@gmail.com'))
         return 'Please Your email must end with @gmail.com';
 
   }
-String check_Password(String val)
-{
-  if(val.isEmpty)
-    return 'Please Enter Your Password';
-  else if(val.length<6)
-    return 'Your Password Must be more than 6 number';
-
-
-}
+  String check_Password(String val)
+  {
+   if(val.isEmpty)
+     return 'Please Enter Your Password';
+   else if(val.length<6)
+     return 'Your Password Must be more than 6 number';
+  }
 void vaild()
 {
   if(FormKey.currentState.validate())
@@ -67,10 +64,10 @@ Container Show_Image(String image)
       body: SingleChildScrollView(
         child: GooeyCarousel(
           children: [
-            Show_Image('images/mov/venom.jpg'),
-            Show_Image('images/mov/kingKong.jpg'),
-            Show_Image('images/mov/jocker2.jpeg'),
-            Show_Image('images/mov/movie2.jpg'),
+            Show_Image('assets/images/mov/venom.jpg'),
+            Show_Image('assets/images/mov/kingKong.jpg'),
+            Show_Image('assets/images/mov/jocker2.jpeg'),
+            Show_Image('assets/images/mov/movie2.jpg'),
 
 
             Container(
