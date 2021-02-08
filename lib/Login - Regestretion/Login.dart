@@ -70,10 +70,6 @@ Container Show_Image(String image)
             Show_Image('images/mov/jocker2.jpeg'),
             Show_Image('images/mov/movie2.jpg'),
 
-            Show_Image('assets/images/mov/venom.jpg'),
-            Show_Image('assets/images/mov/kingKong.jpg'),
-            Show_Image('assets/images/mov/jocker2.jpeg'),
-            Show_Image('assets/images/mov/movie2.jpg'),
 
 
 
