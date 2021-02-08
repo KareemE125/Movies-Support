@@ -65,14 +65,10 @@ Container Show_Image(String image)
         child: GooeyCarousel(
           children: [
 
-            Show_Image('images/mov/venom.jpg'),
-            Show_Image('images/mov/kingKong.jpg'),
-            Show_Image('images/mov/jocker2.jpeg'),
-            Show_Image('images/mov/movie2.jpg'),
-
-
-
-
+            Show_Image('assets/images/mov/venom.jpg'),
+            Show_Image('assets/images/mov/kingKong.jpg'),
+            Show_Image('assets/images/mov/jocker2.jpeg'),
+            Show_Image('assets/images/mov/movie2.jpg'),
             Container(
               color: Colors.white70,
               height:  MediaQuery.of(context).size.height,
