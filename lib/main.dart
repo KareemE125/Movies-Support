@@ -45,7 +45,7 @@ class _Movie_AppState extends State<Movie_App> {
         'Intro' : (context)=>intro()
 
       },
-      home: test(),
+      home:login(),
 
     );
   }

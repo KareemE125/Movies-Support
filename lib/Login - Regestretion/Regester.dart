@@ -22,29 +22,59 @@ class _RegisterState extends State<Register> {
   String Name;
   String User_Name;
   String Password;
+  bool userNameTrue=false;
+  bool PasswordTrue=false;
+  bool NameTrue=false;
+  int val_name=0;
+  int val_username=0;
+  int val_password=0;
   String check_User_Name(String val)
   {
-    if(val.isEmpty)
+    setState(() {
+      userNameTrue=false;
+    });
+    if(val.isEmpty) {
       return 'Please Enter Your Email';
+    }
     else if(!val.endsWith('@gmail.com'))
+      {
       return 'Please Your email must end with @gmail.com';
-
+      }
+  setState(() {
+    userNameTrue=true;
+  });
   }
   String check_Password(String val)
   {
+    setState(() {
+      PasswordTrue=false;
+    });
     if(val.isEmpty)
       return 'Please Enter Your Password';
     else if(val.length<6)
       return 'Your Password Must be more than 6 number';
+    setState(() {
+      PasswordTrue=true;
+    });
   }
   String check_Name(String val)
   {
-    if(val.isEmpty)
+    if(val.isEmpty) {
+     setState(() {
+       NameTrue=false;
+     });
       return 'Please Enter Your Name';
+    }
+   setState(() {
+     NameTrue=true;
+   });
 
   }
   void vaild()
   {
+    val_name=1;
+    val_password=1;
+    val_username=1;
     if(FormKey.currentState.validate())
     {
       print(User_Name +'  '+Password);
@@ -119,10 +149,16 @@ class _RegisterState extends State<Register> {
                               children: [
                                 TextFormField(
                                   decoration: InputDecoration(
-                                    prefixIcon: Icon(
+                                     prefixIcon: val_name==0? Icon(
                                       FontAwesomeIcons.user,
                                       color: kInputName,
-                                    ),
+                                    ):NameTrue==true? Icon(
+                                       FontAwesomeIcons.checkCircle,
+                                       color: Colors.green,
+                                     ): Icon(
+                                       FontAwesomeIcons.solidWindowClose,
+                                       color: Colors.red,
+                                     ),
                                     labelText: 'Your Name',
                                     labelStyle: TextStyle(
                                         color: kInputName,
@@ -132,6 +168,7 @@ class _RegisterState extends State<Register> {
                                   style: TextStyle(
                                       color: kClourMove, fontFamily: 'Viga'),
                                   onChanged: (val){
+                                    check_Name(val);
                                     setState(() {
                                       if (val.length > 0)
                                         kInputName = kClourMove;
@@ -139,15 +176,21 @@ class _RegisterState extends State<Register> {
                                         kInputName = Colors.black45;
                                     });
                                   },
-                                  onFieldSubmitted: (val)=>Name=val,
+                                  onFieldSubmitted: (val){Name=val;val_name=1;},
                                   validator: check_Name,
                                 ),
                                 SizedBox(height: MediaQuery.of(context).size.height*0.05),
                                 TextFormField(
                                   decoration: InputDecoration(
-                                    prefixIcon: Icon(
+                                    prefixIcon: val_username==0? Icon(
                                       FontAwesomeIcons.envelope,
                                       color: kInputEmail,
+                                    ):userNameTrue==true? Icon(
+                                      FontAwesomeIcons.checkCircle,
+                                      color: Colors.green,
+                                    ): Icon(
+                                      FontAwesomeIcons.solidWindowClose,
+                                      color: Colors.red,
                                     ),
                                     labelText: 'Your Email',
                                     labelStyle: TextStyle(
@@ -164,6 +207,7 @@ class _RegisterState extends State<Register> {
                                       else
                                         kInputEmail = Colors.black45;
                                     });
+                                    check_User_Name(val);
                                   },
                                   onFieldSubmitted: (val)=>User_Name=val,
                                   validator: check_User_Name,
@@ -172,9 +216,15 @@ class _RegisterState extends State<Register> {
                                 SizedBox(height: MediaQuery.of(context).size.height*0.05),
                                 TextFormField(
                                   decoration: InputDecoration(
-                                    prefixIcon: Icon(
+                                    prefixIcon: val_password==0? Icon(
                                       FontAwesomeIcons.key,
                                       color: kInputPassword,
+                                    ):PasswordTrue==true? Icon(
+                                      FontAwesomeIcons.checkCircle,
+                                      color: Colors.green,
+                                    ): Icon(
+                                      FontAwesomeIcons.solidWindowClose,
+                                      color: Colors.red,
                                     ),
                                     labelText: 'Password',
                                     labelStyle: TextStyle(
@@ -191,6 +241,7 @@ class _RegisterState extends State<Register> {
                                       else
                                         kInputPassword = Colors.black45;
                                     });
+                                    check_Password(val);
                                   },
                                   obscureText: !showPass,
                                   onFieldSubmitted: (val)=>Password=val,

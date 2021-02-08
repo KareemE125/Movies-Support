@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gooey_carousel/gooey_carrousel.dart';
-//llllllllllllllll
 class login extends StatefulWidget {
   @override
   _loginState createState() => _loginState();
@@ -68,9 +67,9 @@ Container Show_Image(String image)
         child: GooeyCarousel(
           children: [
             Show_Image('images/mov/venom.jpg'),
-            Show_Image('images/mov/kingKong.jpg'),
+            /*Show_Image('images/mov/kingKong.jpg'),
             Show_Image('images/mov/jocker2.jpeg'),
-            Show_Image('images/mov/movie2.jpg'),
+            Show_Image('images/mov/movie2.jpg'),*/
 
 
             Container(
