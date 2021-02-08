@@ -7,28 +7,28 @@ import 'package:gooey_carousel/gooey_carrousel.dart';
 class intro extends StatelessWidget {
   List<PageViewModel> mypages = [
     Pages(
-        //'images/IntroScreen/pic4.png',
-         'images/mov/movies2.png',
+        //'assets/images/IntroScreen/pic4.png',
+         'assets/images/mov/movies2.png',
         "Welcome To Movies App",
         "We Are Glad That You Use Our App And We Hope To Enjoy With This Movies App. ",
         ),
    Pages(
-      'images/IntroScreen/pic9.png',
+      'assets/images/IntroScreen/pic9.png',
       "Choose Any Movie",
       "You Can Choose Any Movie Do You Want To Watch It And Enjoy With it just Click On it and Watch to Enjoy.",
     ),
     Pages(
-      'images/IntroScreen/download.png',
+      'assets/images/IntroScreen/download.png',
       "You Can Download",
       "yeah, You Can download any movie do you want from our app just click on download and it download.",
     ),
     Pages(
-      'images/IntroScreen/pic5.png',
+      'assets/images/IntroScreen/pic5.png',
       "Relax And watched ",
       "We Are Glad That You Use Our App And We Hope To Enjoy With This Movies App ",
     ),
     Pages(
-      'images/IntroScreen/pic10.png',
+      'assets/images/IntroScreen/pic10.png',
       "Finish",
       "First you should create an account to you with email and password to enjoy with this app",
     ),

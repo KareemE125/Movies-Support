@@ -307,7 +307,7 @@ class _RegisterState extends State<Register> {
                       width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('images/login/under1.png'),
+                          image: AssetImage('assets/images/login/under1.png'),
                           fit: BoxFit.cover,
                         ),
                       ),
