@@ -78,7 +78,7 @@ Container Show_Image(String image)
                     children: [
                       Container(
                         width: MediaQuery.of(context).size.width,
-                        height: MediaQuery.of(context).size.height * 0.67,
+                        height: MediaQuery.of(context).size.height * 0.64,
                         decoration: BoxDecoration(
                           color: kClourMove,
                           borderRadius: BorderRadius.only(
@@ -90,15 +90,18 @@ Container Show_Image(String image)
                         child: Column(
                           children: [
                             SizedBox(
-                              height: MediaQuery.of(context).size.height * 0.08,
+                              height: MediaQuery.of(context).size.height * 0.06,
                             ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.baseline,
+                              textBaseline: TextBaseline.alphabetic,
+
                               children: [
                                 Text(
                                   'MOVIES',
                                   style: TextStyle(
-                                      fontSize: 30,
+                                      fontSize: 45,
                                       color: Colors.white,
                                       fontFamily: 'Pacifico',
                                       fontWeight: FontWeight.w900
@@ -110,7 +113,7 @@ Container Show_Image(String image)
                                 Text(
                                   'APP',
                                   style: TextStyle(
-                                      fontSize: 30,
+                                      fontSize: 25,
                                       color: Colors.white,
                                       fontFamily: 'Pacifico',
                                       fontWeight: FontWeight.w900
@@ -119,12 +122,13 @@ Container Show_Image(String image)
                               ],
                             ),
                             SizedBox(
-                              width: 280,
+                              width: 330,
+                              height: 0,
                               child: Divider(thickness: 3.0,color: Colors.white70,),
                             ),
 
                             SizedBox(
-                              height: MediaQuery.of(context).size.height * 0.02,
+                              height: MediaQuery.of(context).size.height * 0.04,
                             ),
                             Text(
                               'Fill The Below information to login in',
