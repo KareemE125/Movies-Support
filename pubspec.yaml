@@ -21,8 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  url_launcher: ^6.0.3
-  percent_indicator: ^3.0.1
+  url_launcher:
+  percent_indicator:
   flutter:
     sdk: flutter
 
@@ -31,9 +31,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   gooey_carousel: any
-  introduction_screen: ^1.0.9
+  introduction_screen:
   font_awesome_flutter: any
-  animated_splash_screen: ^1.0.1+2
+  animated_splash_screen:
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:movies_support/Widget/main_horizontal.dart';
 import 'package:movies_support/Widget/show.dart';
@@ -44,15 +43,15 @@ class _Main_PageState extends State<Main_Page> {
             child: TextField(
               controller: mycontroller,
               textInputAction: TextInputAction.search,
-             onSubmitted: (val){
+              onSubmitted: (val){
                 for(int  i=0;i<Test.myfilm.length;i++){
                   if(val==Test.myfilm[i]['name']){
                     Navigator.of(context).pushNamed('det',
-                    arguments: Test.myfilm[i]['name'],
+                      arguments: Test.myfilm[i]['name'],
                     );
                   }
                 }
-             },
+              },
               style: TextStyle(fontSize: 23,fontFamily: 'Viga'),
               cursorColor: backgroun,
               cursorHeight: 25,
@@ -63,7 +62,7 @@ class _Main_PageState extends State<Main_Page> {
                 filled: true,
                 fillColor: Colors.white,
                 enabledBorder: OutlineInputBorder(
-                 borderRadius: BorderRadius.circular(30.0),
+                  borderRadius: BorderRadius.circular(30.0),
 
                 ),
               ),
@@ -107,7 +106,9 @@ class _Main_PageState extends State<Main_Page> {
                       color: Colors.white, fontSize: 26, fontFamily: 'Viga'),
                 ),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context).pushNamed('see');
+                  },
                   child: Text('See all',
                       style: TextStyle(
                           color: Colors.blue, fontSize: 15, fontFamily: 'Viga')),
@@ -142,8 +143,8 @@ class _Main_PageState extends State<Main_Page> {
                       fun: () {
                         setState(() {
                           ty = Type.action;
-                         for(int i=0;i<Fav.length;i++)
-                           print(Fav[i]['name']);
+                          for(int i=0;i<Fav.length;i++)
+                            print(Fav[i]['name']);
                         });
                       },
                       color: ty == Type.action ? Colors.blue : backgroun,
@@ -187,10 +188,10 @@ class _Main_PageState extends State<Main_Page> {
             Container(
               height: 600,
               child: ListView.builder(
-                  itemBuilder: (ctx,index){
-                    return Show(Test.myfilm[index]['image'], Test.myfilm[index]['name'],index);
+                itemBuilder: (ctx,index){
+                  return Show(Test.myfilm[index]['image'], Test.myfilm[index]['name'],index);
 
-                  },
+                },
                 itemCount: Test.myfilm.length,
               ),
             ),
