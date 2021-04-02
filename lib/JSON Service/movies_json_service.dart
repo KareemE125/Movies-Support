@@ -70,6 +70,8 @@ class MovieJson {
 
   static String getPosterByIndex(int index, var jsonResponse) { return  jsonResponse['all_movies'][index]['poster_path']; }
 
+  static String getWPosterByIndex(int index, var jsonResponse) { return  jsonResponse['all_movies'][index]['wposter_path']; }
+
   static String getYearByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['year']; }
 
   static String getStoryByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['story']; }
@@ -185,7 +187,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     //print(MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreCrime,jsonResponse));
 
-    //print(MovieJson.getPopularIndexs( jsonResponse));
+    //print(MovieJson.getPopularIndexs(jsonResponse));
 
     //print(MovieJson.getNameByIndex(0, jsonResponse));
 
