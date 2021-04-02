@@ -129,21 +129,21 @@ class MovieJson {
   //// ACTORS //// ACTORS //// ACTORS //// ACTORS //// ACTORS //// ACTORS //// ACTORS //// ACTORS
 
   //// WATCH //// WATCH //// WATCH //// WATCH //// WATCH //// WATCH //////// WATCH //// WATCH ////
-  static String getWatch360pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['watch']['360p']; }
+  //static String getWatch360pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['watch']['360p']; }
 
-  static String getWatch480pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['watch']['480p']; }
+  //static String getWatch480pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['watch']['480p']; }
 
-  static String getWatch720pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['watch']['720p']; }
+  //static String getWatch720pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['watch']['720p']; }
 
   static String getWatch1080pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['watch']['1080p']; }
   //// WATCH //// WATCH //// WATCH //// WATCH //// WATCH //// WATCH //// WATCH //// WATCH ////
 
   //// DOWNLOAD //// DOWNLOAD //// DOWNLOAD //// DOWNLOAD //// DOWNLOAD //// DOWNLOAD
-  static String getDownLoad360pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['download']['360p']; }
+  //static String getDownLoad360pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['download']['360p']; }
 
-  static String getDownLoad480pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['download']['480p']; }
+  //static String getDownLoad480pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['download']['480p']; }
 
-  static String getDownLoad720pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['download']['720p']; }
+  //static String getDownLoad720pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['download']['720p']; }
 
   static String getDownLoad1080pByIndex(int index, var jsonResponse) { return jsonResponse['all_movies'][index]['download']['1080p']; }
   //// DOWNLOAD //// DOWNLOAD //// DOWNLOAD //// DOWNLOAD //// DOWNLOAD //// DOWNLOAD
