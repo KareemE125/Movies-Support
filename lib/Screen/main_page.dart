@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:movies_support/Widget/main_horizontal.dart';
 import 'package:movies_support/Widget/show.dart';
