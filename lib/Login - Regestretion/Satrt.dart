@@ -2,12 +2,12 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-class test extends StatefulWidget {
+class Startt extends StatefulWidget {
   @override
-  _testState createState() => _testState();
+  _StarttState createState() => _StarttState();
 }
 
-class _testState extends State<test> {
+class _StarttState extends State<Startt> {
   bool header1=false;
   bool header2=false;
   bool header3=false;

@@ -303,7 +303,7 @@ class _RegisterState extends State<Register> {
                   Expanded(
                     flex: 3,
                     child: Container(
-                      height: MediaQuery.of(context).size.height*0.36,
+                      height: MediaQuery.of(context).size.height*0.37,
                       width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
                         image: DecorationImage(

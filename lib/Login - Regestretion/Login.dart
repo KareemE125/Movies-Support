@@ -68,7 +68,7 @@ Container Show_Image(String image)
             Show_Image('assets/images/mov/venom.jpg'),
             Show_Image('assets/images/mov/kingKong.jpg'),
             Show_Image('assets/images/mov/jocker2.jpeg'),
-            Show_Image('assets/images/mov/movie2.jpg'),
+            Show_Image('assets/images/mov/mu.jpg'),
             Container(
               color: Colors.white70,
               height:  MediaQuery.of(context).size.height,
@@ -113,7 +113,7 @@ Container Show_Image(String image)
                                 Text(
                                   'APP',
                                   style: TextStyle(
-                                      fontSize: 25,
+                                      fontSize: 22,
                                       color: Colors.white,
                                       fontFamily: 'Pacifico',
                                       fontWeight: FontWeight.w900
@@ -319,22 +319,28 @@ Container Show_Image(String image)
                                                 children: [
                                                   SizedBox(),
 
-                                                  Column(
-                                                    children: [
-                                                      Icon(FontAwesomeIcons.facebook,color: Colors.blue,
-                                                        size: 35.0,),
-                                                      SizedBox(height: 5.0,),
-                                                      Text('facebook'),
-                                                    ],
+                                                  FlatButton(
+                                                    onPressed: (){},
+                                                    child: Column(
+                                                      children: [
+                                                        Icon(FontAwesomeIcons.facebook,color: Colors.blue,
+                                                          size: 35.0,),
+                                                        SizedBox(height: 5.0,),
+                                                        Text('facebook'),
+                                                      ],
+                                                    ),
                                                   ),
 
-                                                  Column(
-                                                    children: [
-                                                      Icon(FontAwesomeIcons.google,color: Colors.red,
-                                                        size: 35.0,),
-                                                      SizedBox(height: 5.0,),
-                                                      Text('Google'),
-                                                    ],
+                                                  FlatButton(
+                                                    onPressed: (){},
+                                                    child: Column(
+                                                      children: [
+                                                        Icon(FontAwesomeIcons.google,color: Colors.red,
+                                                          size: 35.0,),
+                                                        SizedBox(height: 5.0,),
+                                                        Text('Google'),
+                                                      ],
+                                                    ),
                                                   ),
                                                   SizedBox(),
 

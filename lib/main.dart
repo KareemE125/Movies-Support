@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:movies_support/Login%20-%20Regestretion/test.dart';
+import 'package:movies_support/Login%20-%20Regestretion/Satrt.dart';
+import 'package:movies_support/Screen/favorite.dart';
+import 'package:movies_support/Screen/film_details.dart';
+import 'package:movies_support/Screen/main_page.dart';
 import 'IntroductionScreen.dart';
 import 'Login - Regestretion/Login.dart';
 import 'Login - Regestretion/Regester.dart';
@@ -42,10 +45,14 @@ class _Movie_AppState extends State<Movie_App> {
       routes: {
         'login': (context)=>login(),
         'register': (context)=>Register(),
-        'Intro' : (context)=>intro()
+        'Intro' : (context)=>intro(),
+        'fav' : (context)=>Favorite(),
+        'det' : (context)=>Film_Details(),
+
+
 
       },
-      home:test(),
+      home:Main_Page(),
 
     );
   }
