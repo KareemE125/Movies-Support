@@ -48,6 +48,9 @@ class _Movie_AppState extends State<Movie_App> {
         'Intro' : (context)=>intro(),
         'fav' : (context)=>Favorite(),
         'det' : (context)=>Film_Details(),
+
+
+
       },
       home:Main_Page(),
 
@@ -66,6 +69,7 @@ Container Splach_Screen(BuildContext context)
       image: DecorationImage(
       image: AssetImage('assets/images/mov/splach.jpg'),
       fit: BoxFit.cover,
+
      ),
 
 
