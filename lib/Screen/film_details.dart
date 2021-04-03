@@ -281,7 +281,7 @@ class _Film_DetailsState extends State<Film_Details> {
                     height: MediaQuery.of(context).size.height * 0.02,
                   ),
                   Container(
-                    height: MediaQuery.of(context).size.height * 0.259,
+                    height: MediaQuery.of(context).size.height * 0.272,
                     width: double.infinity,
                     decoration: BoxDecoration(
                       color: background,
