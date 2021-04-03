@@ -67,7 +67,7 @@ class _ShowState extends State<Show> {
         );
       },
       child: Container(
-        padding: EdgeInsets.only(left: 130.0),
+        padding: EdgeInsets.only(left: MediaQuery.of(context).size.width*0.34),
         margin: EdgeInsets.symmetric(vertical: 5.0,horizontal: 15),
         width: MediaQuery.of(context).size.width*0.9,
         height: MediaQuery.of(context).size.height*0.23,
