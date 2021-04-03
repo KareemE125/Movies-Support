@@ -38,7 +38,6 @@ class _Movie_AppState extends State<Movie_App> {
   Widget build(BuildContext context) {
 
     return  MaterialApp(
-
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         inputDecorationTheme: InputDecorationTheme(

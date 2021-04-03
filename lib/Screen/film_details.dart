@@ -13,6 +13,7 @@ import '../main.dart';
 class Film_Details extends StatefulWidget {
   @override
   _Film_DetailsState createState() => _Film_DetailsState();
+
 }
 
 enum Stat { happy, sad, no }

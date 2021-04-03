@@ -41,7 +41,6 @@ class MovieJson {
   static const GenreComedy = 'Comedy';
 
 
-
   static Future parseJson() async {
     String jsonString = await rootBundle.loadString("assets/movies");
     final jsonResponse = jsonDecode(jsonString);

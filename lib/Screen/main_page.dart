@@ -242,6 +242,7 @@ class _Main_PageState extends State<Main_Page> {
 
 Container Button_cat(
     {BuildContext ctx, String type, Function fun, Color color}) {
+
   return Container(
     margin: EdgeInsets.only(left: 10.0),
     child: ElevatedButton(
