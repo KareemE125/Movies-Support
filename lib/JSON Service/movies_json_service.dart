@@ -37,8 +37,9 @@ class MovieJson {
   static const GenreAction = 'Action';
   static const GenreCrime = 'Crime';
   static const GenreDrama = 'Drama';
-  static const GenreSports = 'Sports';
-  static const GenreThriller = 'Thriller';
+  static const GenreKids = 'Kids';
+  static const GenreComedy = 'Comedy';
+
 
 
   static Future parseJson() async {
@@ -185,7 +186,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     // all function if you want to try them in the consle
 
-    //print(MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreCrime,jsonResponse));
+    //print(MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreAction,jsonResponse));
 
     //print(MovieJson.getPopularIndexs(jsonResponse));
 

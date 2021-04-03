@@ -17,7 +17,7 @@ class Favorite extends StatelessWidget {
         children: [
           SizedBox(height: 10,),
           ...Fav.map((e){
-            return Show(e['image'], e['name'],-1);
+            //return Show(e['image'], e['name'],-1);
           }).toList(),
         ],
 

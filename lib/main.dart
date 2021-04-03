@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:movies_support/Login%20-%20Regestretion/Satrt.dart';
 import 'package:movies_support/Screen/favorite.dart';
 import 'package:movies_support/Screen/film_details.dart';
+import 'package:movies_support/Screen/goooo.dart';
 import 'package:movies_support/Screen/main_page.dart';
 import 'package:movies_support/Screen/see_all.dart';
 import 'IntroductionScreen.dart';
@@ -62,8 +63,9 @@ class _Movie_AppState extends State<Movie_App> {
         'fav' : (context)=>Favorite(),
         'det' : (context)=>Film_Details(),
         'see' : (context)=>See_All(),
+        'go' : (context)=> Main_Page(),
       },
-      home:Main_Page(),
+      home:Goooo(),
 
     );
   }

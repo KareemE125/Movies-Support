@@ -7,7 +7,9 @@ class Show extends StatefulWidget {
   final String name;
   final String image;
   final int indx;
-  Show(this.image, this.name,this.indx);
+  final double Rate;
+  final List<String> genres;
+  Show(this.image, this.name,this.indx,this.Rate,this.genres);
   @override
   _ShowState createState() => _ShowState();
 }
@@ -44,6 +46,16 @@ class _ShowState extends State<Show> {
         Fav.add(Test.myfilm[widget.indx]);
       }
     });
+  }
+  String Genrs(){
+    String ahmed = '';
+    for(int i=0;i<widget.genres.length;i++){
+      ahmed+=widget.genres[i];
+      if(i == widget.genres.length-1){ break; }
+         ahmed+=', ';
+
+    }
+    return ahmed;
   }
 
   @override
@@ -89,17 +101,18 @@ class _ShowState extends State<Show> {
                   SizedBox(height: 10,),
                   Row(
                     children: [
-                      Icon(Icons.star,color: Colors.yellow,size: 15,),
-                      Icon(Icons.star,color: Colors.yellow,size: 15),
-                      Icon(Icons.star,color: Colors.yellow,size: 15),
-                      Icon(Icons.star_half_rounded,color: Colors.yellow,size: 15),
-                      Icon(Icons.star,color: Color((0xff535782)),size: 15),
+                      // Icon(Icons.star,color: Colors.yellow,size: 15,),
+                      // Icon(Icons.star,color: Colors.yellow,size: 15),
+                      // Icon(Icons.star,color: Colors.yellow,size: 15),
+                      // Icon(Icons.star_half_rounded,color: Colors.yellow,size: 15),
+                      // Icon(Icons.star,color: Color((0xff535782)),size: 15),
+                      draw(context, widget.Rate),
                       SizedBox(width: 10.0,),
-                      Text('8.0',style: TextStyle(color: Colors.white30,fontSize: 14.0)),
+                      Text('${widget.Rate}',style: TextStyle(color: Colors.white30,fontSize: 14.0)),
                     ],
                   ),
                   SizedBox(height: 10.0,),
-                  Text('Carton,friction,action',style: TextStyle(color: Colors.white30,fontSize: 15.0)),
+                  Text(Genrs(),style: TextStyle(color: Colors.white30,fontSize: 15.0)),
                 ],
               ),
             ),
@@ -110,3 +123,55 @@ class _ShowState extends State<Show> {
     );
   }
 }
+ Row draw(BuildContext ctx,double num){
+
+
+  return Row(
+    children: [
+      num>=9.0?Row(
+        children: [
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+        ],
+      ):num>=7.0?Row(
+        children: [
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+        ],
+      ):num>=6.0?Row(
+        children: [
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star_half_rounded,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+        ],
+      ):num>=5.0?Row(
+        children: [
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+        ],
+      ):Row(
+        children: [
+          Icon(Icons.star,color: Colors.yellow,size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+          Icon(Icons.star,color: Color((0xff535782)),size: 15),
+        ],
+      ),
+
+    ],
+  );
+
+ }
+//draw(context, widget.Rate),

@@ -1,9 +1,12 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:movies_support/JSON%20Service/movies_json_service.dart';
 import 'package:movies_support/Widget/main_horizontal.dart';
 import 'package:movies_support/Widget/show.dart';
 import 'package:movies_support/test.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import '../main.dart';
 
 
 enum Type {
@@ -12,6 +15,7 @@ enum Type {
   kids,
   Thriller,
   drama,
+  crime,
 }
 
 Type ty = Type.action;
@@ -29,6 +33,16 @@ class Main_Page extends StatefulWidget {
 var mycontroller=TextEditingController();
 
 class _Main_PageState extends State<Main_Page> {
+  List genreList = [];
+
+  @override
+  void initState() {
+    super.initState();
+    genreList = MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreAction, jsonResponse);
+    print(genreList);
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -143,8 +157,9 @@ class _Main_PageState extends State<Main_Page> {
                       fun: () {
                         setState(() {
                           ty = Type.action;
-                          for(int i=0;i<Fav.length;i++)
-                            print(Fav[i]['name']);
+                          genreList.clear();
+                          genreList = MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreAction, jsonResponse);
+
                         });
                       },
                       color: ty == Type.action ? Colors.blue : backgroun,
@@ -154,15 +169,33 @@ class _Main_PageState extends State<Main_Page> {
                       fun: () {
                         setState(() {
                           ty = Type.drama;
+                          genreList.clear();
+                          genreList = MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreDrama, jsonResponse);
                         });
                       },
                       color: ty == Type.drama ? Colors.blue : backgroun,
                       type: 'Drama'),
+
+                  Button_cat(
+                      ctx: context,
+                      fun: () {
+                        setState(() {
+                          ty = Type.crime;
+                          genreList.clear();
+                          genreList = MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreCrime, jsonResponse);
+
+                        });
+                      },
+                      color: ty == Type.crime ? Colors.blue : backgroun,
+                      type: 'Crime'),
+
                   Button_cat(
                       ctx: context,
                       fun: () {
                         setState(() {
                           ty = Type.kids;
+                          genreList.clear();
+                          genreList = MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreKids, jsonResponse);
 
                         });
                       },
@@ -173,6 +206,9 @@ class _Main_PageState extends State<Main_Page> {
                       fun: () {
                         setState(() {
                           ty = Type.comedy;
+                          genreList.clear();
+                          genreList = MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreComedy, jsonResponse);
+
                         });
                       },
                       color: ty == Type.comedy ? Colors.blue : backgroun,
@@ -189,10 +225,11 @@ class _Main_PageState extends State<Main_Page> {
               height: 600,
               child: ListView.builder(
                 itemBuilder: (ctx,index){
-                  return Show(Test.myfilm[index]['image'], Test.myfilm[index]['name'],index);
+
+                   return Show(MovieJson.getPosterByIndex(genreList[index], jsonResponse), MovieJson.getNameByIndex(genreList[index], jsonResponse), genreList[index], double.parse(MovieJson.getRatingByIndex(genreList[index], jsonResponse)),MovieJson.getGenresByIndex(genreList[index], jsonResponse));
 
                 },
-                itemCount: Test.myfilm.length,
+                itemCount: genreList.length,
               ),
             ),
 
