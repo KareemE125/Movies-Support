@@ -64,10 +64,12 @@ class Popular_Movies extends StatelessWidget {
                     style: TextStyle(
                         color: Colors.white, fontSize: 15, fontFamily: 'Viga'),
                   ),
-                  Text(
-                    Genres(),
-                    style: TextStyle(
-                        color: Colors.white30, fontSize: 12, fontFamily: 'Viga'),
+                  Container(
+                    child: Text(
+                      Genres(),
+                      style: TextStyle(
+                          color: Colors.white30, fontSize: 8, fontFamily: 'Viga'),
+                    ),
                   ),
 
                 ],

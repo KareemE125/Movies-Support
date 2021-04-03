@@ -145,7 +145,7 @@ class _Film_DetailsState extends State<Film_Details> {
                 textBaseline: TextBaseline.alphabetic,
                 children: [
                   Container(
-                    width: MediaQuery.of(context).size.width*0.68,
+                    width: MediaQuery.of(context).size.width*0.6,
                     child: Text(
                       ' ${MovieJson.getNameByIndex(ID, jsonResponse)}',
                       style: TextStyle(

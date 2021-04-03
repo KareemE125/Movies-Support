@@ -92,7 +92,7 @@ class _ShowState extends State<Show> {
             ),
             SizedBox(height: 0.0,),
             Container(
-              padding: EdgeInsets.only(left: 10),
+              padding: EdgeInsets.only(left: MediaQuery.of(context).size.width*0.03),
 
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
