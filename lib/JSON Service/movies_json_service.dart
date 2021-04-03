@@ -254,3 +254,55 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
 }
+
+
+
+
+/*
+Json file example
+   {
+      "id" : 2,
+      "name" : "write_the_name",
+      "poster_path" : "add_poster_url",
+      "wposter_path" : "add_poster_url_by_width",
+      "year": "add_the_year",
+      "story" : "add_the_story",
+      "language" : "add_the_lang",
+      "country" : "add_the_country",
+      "genres": [
+        { "genre" : "add_the_genre" },
+        { "genre" : "add_the_genre" },
+        { "genre" : "add_the_genre" }
+      ],
+      "rating" : "add_the_rating",
+      "duration" : "add_the_duration",
+      "cast" : [
+        {
+          "director" : "add_the_name",
+          "role" : "add_the_role",
+          "pic" : "add_the_pic_url"
+        },
+        {
+          "actors" : [
+            {
+              "actor" : "add_the_name",
+              "role" : "add_the_role",
+              "pic" : "add_the_pic_url"
+            },
+            {
+              "actor" : "add_the_name",
+              "role" : "add_the_role",
+              "pic" : "add_the_pic_url"
+            }
+          ]
+        }
+      ],
+      "watch" :{
+        "1080p" : "add_the_url"
+      },
+      "download" : {
+        "1080p" : "add_the_url"
+      }
+
+    }
+ */
