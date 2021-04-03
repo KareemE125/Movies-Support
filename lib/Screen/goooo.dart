@@ -5,18 +5,14 @@ class Goooo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Column(
-          children: [
-            Center(
-              child: TextButton(
-                child: Text('fooo'),
-                onPressed: (){
-                  Navigator.of(context).pushNamed('go');
-                },
-              ),
+        child: Center(
+          child: TextButton(
+            child: Text('fooo'),
+            onPressed: (){
+              Navigator.of(context).pushNamed('go');
+            },
+          ),
 
-            ),
-          ],
         ),
       ),
     );
