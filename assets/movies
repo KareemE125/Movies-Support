@@ -364,7 +364,7 @@
           "genre": "Drama"
         }
       ],
-      "rating": "90",
+      "rating": "0.9",
       "duration": "120",
       "cast": [
         {
@@ -418,7 +418,7 @@
           "genre": "Drama"
         }
       ],
-      "rating": "90",
+      "rating": "0.9",
       "duration": "130",
       "cast": [
         {
@@ -477,7 +477,7 @@
           "genre": "Action"
         }
       ],
-      "rating": "95",
+      "rating": "0.95",
       "duration": "110",
       "cast": [
         {
@@ -534,7 +534,7 @@
           "genre": "Action"
         }
       ],
-      "rating": "90",
+      "rating": "0.9",
       "duration": "150",
       "cast": [
         {
@@ -593,7 +593,7 @@
           "genre": "Drama"
         }
       ],
-      "rating": "88",
+      "rating": "0.88",
       "duration": "add_the_duration",
       "cast": [
         {
@@ -652,7 +652,7 @@
           "genre": "Drama"
         }
       ],
-      "rating": "92",
+      "rating": "0.92",
       "duration": "add_the_duration",
       "cast": [
         {
@@ -826,8 +826,9 @@
     {
       "id": 15,
       "name": "The Son of Bigfoot",
-      "poster_path": "https://u...content-available-to-author-only...a.org/wikipedia/en/thumb/c/c1/The_Son_of_Bigfoot_Poster.jpg/220px-The_Son_of_Bigfoot_Poster.jpg",
-      "wposter_path": "https://i...content-available-to-author-only...n.com/images/S/sgp-catalog-images/region_GB/studiocanal-SC_UK_025540_THESONOFBIGFOOT-Full-Image_GalleryBackground-en-GB-1512146307853._Vfff3ec8a976b6296e058cff98af1fef0_SX1080_.jpg",
+      "poster_path" : "https://u...content-available-to-author-only...a.org/wikipedia/en/thumb/c/c1/The_Son_of_Bigfoot_Poster.jpg/220px-The_Son_of_Bigfoot_Poster.jpg",
+      "wposter_path" : "https://i...content-available-to-author-only...n.com/images/S/sgp-catalog-images/region_GB/studiocanal-SC_UK_025540_THESONOFBIGFOOT-Full-Image_GalleryBackground-en-GB-1512146307853._Vfff3ec8a976b6296e058cff98af1fef0_SX1080_.jpg",
+
       "year": "2017",
       "story": "teenager - a stranger to his homeland - embarks on an epic and daring search journey, trying to unravel the mystery behind his father's long disappearance, only to realize that his father represents nothing but another mythical Bigfoot, who hid in the deep forests for years in order to protect himself and his family from ( Hairco), the giant company that aims to conduct scientific experiments on the DNA of bigfoot organisms",
       "language": "English",
@@ -889,8 +890,9 @@
     {
       "id": 16,
       "name": "Inside Out",
-      "poster_path": "https://l...content-available-to-author-only...d.net/v1/images/rich_insideout_header_mobile_ce11b9a6.jpeg?region=0,0,640,952",
-      "wposter_path": "https://w...content-available-to-author-only...x.org/SCIplanet/Attachments/Article/MediumImage/VDh66SjECT_20180311152512381.jpg",
+      "poster_path" : "https://l...content-available-to-author-only...d.net/v1/images/rich_insideout_header_mobile_ce11b9a6.jpeg?region=0,0,640,952",
+      "wposter_path" : "https://w...content-available-to-author-only...x.org/SCIplanet/Attachments/Article/MediumImage/VDh66SjECT_20180311152512381.jpg",
+
       "year": "2015",
       "story": ", the film's story revolves around the girl (Riley) who moves to (San Francisco) with her family, after her father takes over a new job there, where she is controlled by some emotions such as (happiness, fear, anger, sadness, disgust), and she tries (Riley) With the help of her underlying feelings that she gives her daily advice to overcome the suffering of moving to this new city, she also tries to maintain her positive feelings",
       "language": "English ",
@@ -955,8 +957,8 @@
     {
       "id": 17,
       "name": "Coco",
-      "poster_path": "https://m...content-available-to-author-only...n.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg",
-      "wposter_path": "https://m...content-available-to-author-only...r.com/photos/5b23d8ad0a4f5b3d66492b14/4:3/w_1483,h_1112,c_limit/Tolentino-Coco.jpg",
+      "poster_path" : "https://m...content-available-to-author-only...n.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg",
+      "wposter_path" : "https://m...content-available-to-author-only...r.com/photos/5b23d8ad0a4f5b3d66492b14/4:3/w_1483,h_1112,c_limit/Tolentino-Coco.jpg",
       "year": "2017",
       "story": "(Miguel) is a 12-year-old boy who has a great passion for music even though his family has banned it for generations, and he decides to visit the place where his favorite musician (Ernesto de la Cruz) lies on the Day of the Dead that is held annually in Mexico, and ends with it The situation in the land of the dead, where he meets his departed relatives, and gets to know his family's secrets",
       "language": "English",
@@ -1018,8 +1020,8 @@
     {
       "id": 19,
       "name": "Frozen",
-      "poster_path": "https://l...content-available-to-author-only...d.net/v1/images/p_frozen_18373_3131259c.jpeg?region=0%2C0%2C540%2C810",
-      "wposter_path": "https://i...content-available-to-author-only...g.com/vi/2chgjFVpRiA/maxresdefault.jpg",
+      "poster_path" : "https://l...content-available-to-author-only...d.net/v1/images/p_frozen_18373_3131259c.jpeg?region=0%2C0%2C540%2C810",
+      "wposter_path" : "https://i...content-available-to-author-only...g.com/vi/2chgjFVpRiA/maxresdefault.jpg",
       "year": "2013",
       "story": "princesses Elsa (Edna Menzel) The Next Queen and Anna (Kristen Bell). Elsa possessed a unique superpower that could create snow and ice, but she suppressed that power due to an accident that shocked her. During Elsa's inauguration as Queen, things get out of control and she takes a complicated path and everything starts to collapse, so Elsa escapes. Anna decides to accompany Kristoff (Jonathan Grove) and Olive (Josh Gad) on a perilous journey in order to find Elsa and save the kingdom before it's too late",
       "language": "english",
