@@ -1,11 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:movies_support/JSON%20Service/movies_json_service.dart';
 import 'package:movies_support/Screen/main_page.dart';
 import 'package:movies_support/Widget/cast.dart';
-import 'package:movies_support/test.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:percent_indicator/percent_indicator.dart';
+import '../Widget/show.dart';
+
+import '../main.dart';
 
 class Film_Details extends StatefulWidget {
   @override
@@ -58,8 +61,19 @@ class _Film_DetailsState extends State<Film_Details> {
 
   @override
   Widget build(BuildContext context) {
-    final Name = ModalRoute.of(context).settings.arguments;
-    final Film = Test.myfilm.firstWhere((element) => element['name'] == Name);
+    final ID = ModalRoute.of(context).settings.arguments;
+
+    String Genres(){
+      String ahmed='';
+      for(String s in MovieJson.getGenresByIndex(ID, jsonResponse) ){
+        ahmed+=s.toString();
+        print(s);
+        if(s.toString() == MovieJson.getGenresByIndex(ID, jsonResponse).last){ break; }
+        ahmed+=', ';
+
+      }
+      return ahmed;
+    }
 
     return Scaffold(
       backgroundColor: background,
@@ -73,7 +87,7 @@ class _Film_DetailsState extends State<Film_Details> {
                   child: Opacity(
                     opacity: 0.5,
                     child: Image.network(
-                      Film['imagee'],
+                      MovieJson.getWPosterByIndex(ID, jsonResponse),
                     ),
                   ),
                 ),
@@ -82,7 +96,7 @@ class _Film_DetailsState extends State<Film_Details> {
                   height: MediaQuery.of(context).size.height * 0.26,
                   child: Center(
                     child: GestureDetector(
-                      onTap: () => openFilm(Film['Url']),
+                      onTap: () => openFilm(MovieJson.getWatch1080pByIndex(ID, jsonResponse)),
                       child: Image.asset(
                         'assets/images/mov/icoon.png',
                         width: 75,
@@ -122,43 +136,38 @@ class _Film_DetailsState extends State<Film_Details> {
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.01,
             ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              crossAxisAlignment: CrossAxisAlignment.baseline,
-              textBaseline: TextBaseline.alphabetic,
-              children: [
-                Text(
-                  ' ${Film['name']}',
-                  style: TextStyle(
-                      fontSize: 30, color: Colors.white, fontFamily: 'Viga'),
-                ),
-                SizedBox(),
-                Row(
-                  children: [
-                    Icon(
-                      Icons.star,
-                      color: Colors.yellow,
-                      size: 15,
+            Container(
+              padding: EdgeInsets.only(right: 20),
+              width: MediaQuery.of(context).size.width,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.baseline,
+                textBaseline: TextBaseline.alphabetic,
+                children: [
+                  Container(
+                    width: MediaQuery.of(context).size.width*0.68,
+                    child: Text(
+                      ' ${MovieJson.getNameByIndex(ID, jsonResponse)}',
+                      style: TextStyle(
+                          fontSize: 30, color: Colors.white, fontFamily: 'Viga'),
+               
                     ),
-                    Icon(Icons.star, color: Colors.yellow, size: 15),
-                    Icon(Icons.star, color: Colors.yellow, size: 15),
-                    Icon(Icons.star_half_rounded,
-                        color: Colors.yellow, size: 15),
-                    Icon(Icons.star, color: Color((0xff535782)), size: 15),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text('8.0   ',
-                        style:
-                            TextStyle(color: Colors.white30, fontSize: 14.0)),
-                  ],
-                ),
-              ],
+                  ),
+                  
+                  SizedBox(),
+                  draw(context, double.parse(MovieJson.getRatingByIndex(ID, jsonResponse))),
+                  Text(' ${MovieJson.getRatingByIndex(ID, jsonResponse)}',
+                      style: TextStyle(color: Colors.white30, fontSize: 18.0)),
+
+
+                   
+                ],
+              ),
             ),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.01,
             ),
-            Text('  Drama,friction,action | RunTime: 120 min',
+            Text('    ${Genres()}  |  ${MovieJson.getDurationByIndex(ID, jsonResponse)}',
                 style: TextStyle(color: Colors.white30, fontSize: 14.0)),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.02,
@@ -166,7 +175,7 @@ class _Film_DetailsState extends State<Film_Details> {
             Container(
               margin: EdgeInsets.only(left: 7.0, right: 20),
               child: Wrap(children: [
-                Text(Film['sum'],
+                Text('${MovieJson.getStoryByIndex(ID, jsonResponse)}',
                     style: TextStyle(color: Colors.white70, fontSize: 17.0))
               ]),
             ),
@@ -180,13 +189,12 @@ class _Film_DetailsState extends State<Film_Details> {
             ),
             Container(
               height: MediaQuery.of(context).size.height * 0.2,
-              child: ListView(
+              child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                children: [
-                  ...(Film['cast'] as List<Map<String, String>>).map((e) {
-                    return TheCast(e['image'], e['name']);
-                  }).toList(),
-                ],
+                itemBuilder: (ctx,index){
+                  return TheCast(MovieJson.getActorsPicsUrlListByIndex(ID, jsonResponse)[index], MovieJson.getActorsNamesListByIndex(ID, jsonResponse)[index]);
+                },
+                itemCount: MovieJson.getActorsNamesListByIndex(ID, jsonResponse).length,
               ),
             ),
             Container(
@@ -266,9 +274,9 @@ class _Film_DetailsState extends State<Film_Details> {
                       CircularPercentIndicator(
                         radius: 80.0,
                         lineWidth: 5.0,
-                        percent: Film['val'],
+                        percent: double.parse(MovieJson.getRatingByIndex(ID, jsonResponse))/10,
                         center: Text(
-                          "${Film['percent']}%",
+                          "${double.parse(MovieJson.getRatingByIndex(ID, jsonResponse))*10}%",
                           style: TextStyle(color: Colors.white),
                         ),
                         progressColor: Colors.deepOrange,
@@ -295,7 +303,7 @@ class _Film_DetailsState extends State<Film_Details> {
                           height: MediaQuery.of(context).size.height * 0.05,
                         ),
                         ElevatedButton.icon(onPressed: () {
-                          openFilm(Film['Url']);
+                          openFilm(MovieJson.getWatch1080pByIndex(ID, jsonResponse));
                         },
                           style: TextButton.styleFrom(
                             backgroundColor: Colors.blue,
@@ -310,7 +318,7 @@ class _Film_DetailsState extends State<Film_Details> {
 
 
                         ElevatedButton.icon(onPressed: () {
-                          openFilm(Film['download']);
+                          openFilm(MovieJson.getDownLoad1080pByIndex(ID, jsonResponse));
 
                         },
                           style: TextButton.styleFrom(

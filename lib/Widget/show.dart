@@ -48,7 +48,7 @@ class _ShowState extends State<Show> {
     });
   }
   String Genrs(){
-    String ahmed = '';
+    String ahmed='';
     for(int i=0;i<widget.genres.length;i++){
       ahmed+=widget.genres[i];
       if(i == widget.genres.length-1){ break; }
@@ -62,8 +62,8 @@ class _ShowState extends State<Show> {
   Widget build(BuildContext context) {
     return  GestureDetector(
       onTap: (){
-        Navigator.of(context).pushNamed('det',arguments:
-          widget.name,
+        Navigator.of(context).pushNamed('det',
+          arguments: widget.indx,
         );
       },
       child: Container(
@@ -84,7 +84,7 @@ class _ShowState extends State<Show> {
           children: [
             Row(
               children: [
-                SizedBox(width: MediaQuery.of(context).size.width*0.45,),
+                SizedBox(width: MediaQuery.of(context).size.width*0.42,),
 
                 widget.indx!=-1?IconButton(icon: Icon(Icons.favorite,color: Current,size: Sizee.toDouble(),), onPressed: change):
                Text('      \n\n'),
@@ -101,11 +101,6 @@ class _ShowState extends State<Show> {
                   SizedBox(height: 10,),
                   Row(
                     children: [
-                      // Icon(Icons.star,color: Colors.yellow,size: 15,),
-                      // Icon(Icons.star,color: Colors.yellow,size: 15),
-                      // Icon(Icons.star,color: Colors.yellow,size: 15),
-                      // Icon(Icons.star_half_rounded,color: Colors.yellow,size: 15),
-                      // Icon(Icons.star,color: Color((0xff535782)),size: 15),
                       draw(context, widget.Rate),
                       SizedBox(width: 10.0,),
                       Text('${widget.Rate}',style: TextStyle(color: Colors.white30,fontSize: 14.0)),
