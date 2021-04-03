@@ -64,249 +64,37 @@
     },
     {
       "id" : 1,
-      "name" : "The Hateful Eight",
-      "poster_path" : "https://i.egycdn.com/pic/WmFwZndlY21UbW1wVFR2RWNtWXBwRWFseG1J.jpg",
-      "wposter_path" : "https://c4.wallpaperflare.com/wallpaper/215/792/905/the-hateful-eight-movies-quentin-tarantino-hd-wallpaper-preview.jpg",
-      "year": "2015",
-      "story" : "The Hateful Eight The events of the film revolve around the end of the nineteenth century about a group being trapped inside a dilapidated building called (Junk Meles) due to the outbreak of a devastating snowstorm, while a group of travelers resort to the same building to take shelter inside, and they are: former major Marcus Warren (Samuel L. Jackson) , And John Rath (Kurt Russell), who works as a bounty hunter to arrest fugitives from justice as he was transporting Daisy Domerge (Jennifer Jason Lee) to court.\n",
-      "language" : "English",
-      "country" : "USA",
+      "name" : "write_the_name",
+      "poster_path" : "add_poster_url",
+      "wposter_path" : "add_poster_url_by_width",
+      "year": "add_the_year",
+      "story" : "add_the_story",
+      "language" : "add_the_lang",
+      "country" : "add_the_country",
       "genres": [
-        { "genre" : "Crime" },
-        { "genre" : "Drama" },
-        { "genre" : "Thriller" }
+        { "genre" : "add_the_genre" },
+        { "genre" : "add_the_genre" },
+        { "genre" : "add_the_genre" }
       ],
-      "rating" : "7.8",
-      "duration" : "02:47:45",
+      "rating" : "add_the_rating",
+      "duration" : "add_the_duration",
       "cast" : [
         {
-          "director" : "Quentin Tarantino",
+          "director" : "add_the_name",
           "role" : "add_the_role",
-          "pic" : "https://i.egycdn.com/pic/YWxZRWNtYnZjbXVjYW1qUG1Zdm1mdGM.jpg"
+          "pic" : "add_the_pic_url"
         },
         {
           "actors" : [
             {
-              "actor" : "Samuel Jackson",
+              "actor" : "add_the_name",
               "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtWUVtYWNQbUVjTmdhbXZjd0s.jpg"
+              "pic" : "add_the_pic_url"
             },
             {
-              "actor" : "Kurt Russel",
+              "actor" : "add_the_name",
               "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtWVlFRWNtRXhtRXZjbXZtandUSQ.jpg"
-            },
-            {
-              "actor" : "Jennifer Jason",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbW1UbW12RWNtam1wam1ZVHBqbUk.jpg"
-            },
-            {
-              "actor" : "Walton Goggins",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtdm1wWW9SY21ZYnh2TklsdmN2Yw.jpg"
-            },
-            {
-              "actor" : "Demian Bichir",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbW1Zam1lY21wam1FY052bWp4YQ.jpg"
-            }
-          ]
-        }
-      ],
-      "watch" :{
-        "1080p" : "https://back.egybest.co/vs-mirror/vidstream.online/v/4GlbHdONTO?r"
-      },
-      "download" : {
-        "1080p" : "https://back.egybest.co/vs-mirror/vidstream.online/f/4GlbHdONTO/?vclid=e659e8c0cb25791324c8259debb74485607e7d4369f8d66e37765c93eDDDWQElcWDyDWYGywoMMooMGyfnoocouBytWyWDWkpdDWDyDWaaaDwlPEwlPOZEWPKZWDu"
-      }
-
-    },
-    {
-      "id" : 2,
-      "name" : "Boss Level",
-      "poster_path" : "https://i.egycdn.com/pic/WmFwZndlY21ZWVRvY3ZjbW1FY21qYWNORWNOWUVtYg.jpg",
-      "wposter_path" : "https://fastly.syfy.com/sites/syfy/files/2021/02/boss-level.jpg",
-      "year": "2019",
-      "story" : "The movie revolves around a retired special forces officer who remains stuck in a loop on the day of his death so that he can find out his killer.\n",
-      "language" : "English",
-      "country" : "USA",
-      "genres": [
-        { "genre" : "Action" },
-        { "genre" : "Thriller" }
-      ],
-      "rating" : "6.8",
-      "duration" : "01:41:00",
-      "cast" : [
-        {
-          "director" : "Joe Carnahan",
-          "role" : "add_the_role",
-          "pic" : "https://i.egycdn.com/pic/YWxZRWNtVEV2Y21wdWNtandDamF2Y214ang.jpg"
-        },
-        {
-          "actors" : [
-            {
-              "actor" : "Mel Gibson",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWN2TllZYWNtbW1tbVl2bVlucGc.jpg"
-            },
-            {
-              "actor" : "Annabelle Wallis",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbXZjbWJtRUVjY05wYm12bWJ3VGJtYg.jpg"
-            },
-            {
-              "actor" : "Frank Grillo",
-              "role" : "Roy",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtVFRwYm1tRWNtdm1ZRW1td1RwSXg.jpg"
-            }
-          ]
-        }
-      ],
-      "watch" :{
-        "1080p" : "https://back.egybest.co/vs-mirror/vidstream.kim/v/RFkU4Tx7ji"
-      },
-      "download" : {
-        "1080p" : "https://back.egybest.co/vs-mirror/vidstream.kim/f/RFkU4Tx7ji/?vclid=407b83ce2f920f46583be7d5542bbf996cc6922bb705eb4844b36de8kcccvaREcvcMcvIGxfSVUfgrXvMvcvYKfbvcMcvPVMIrQQrrQVMxHrrbrZLMUvMvcvSaocvcMcvBBBcIfqKIfqpeKvqdevcZ"
-      }
-
-    },
-    {
-      "id" : 3,
-      "name" : "Zack Snyder's Justice League",
-      "poster_path" : "https://wallpapercave.com/wp/wp7053709.jpg",
-      "wposter_path" : "https://i.imgur.com/Q1tI03r.jpg",
-      "year": "2021",
-      "story" : "version of a special director That Snyder's version of the Justice Alliance movie released in 2017. The movie tells the story of Bruce Wayne (Batman) allying with Diana Prince to form a team of superheroes to protect Earth from an upcoming great danger .\n",
-      "language" : "English",
-      "country" : "USA",
-      "genres": [
-        { "genre" : "Action" },
-        { "genre" : "Fiction" },
-        { "genre" : "Adventure" }
-      ],
-      "rating" : "8.2",
-      "duration" : "04:02:08",
-      "cast" : [
-        {
-          "director" : "Zack Snyder",
-          "role" : "add_the_role",
-          "pic" : "https://i.egycdn.com/pic/YWxZRWNtRW1qbW12UmNtQ2ptWXZtdm1JeGE.jpg"
-        },
-        {
-          "actors" : [
-            {
-              "actor" : "Ben Affleck",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbW1qbW1FY2xtRW1weGpjdE56.jpg"
-            },
-            {
-              "actor" : "Henry Cavill",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtYnZjbWJtZWN4dmN2d1BtYm1qbXBJ.jpg"
-            },
-            {
-              "actor" : "Gal Gadot",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbXZ0Y21tbW1FY21wamN3bG1qYWxs.jpg"
-            }
-          ]
-        }
-      ],
-      "watch" :{
-        "1080p" : "https://back.egybest.co/vs-mirror/vidstream.online/v/h5SdhzdaZn"
-      },
-      "download" : {
-        "1080p" : "https://back.egybest.co/vs-mirror/vidstream.online/f/h5SdhzdaZn/?vclid=87d86b577293c9bd7e28fddae816b68e080fb0256f89e0c2af33684bmXXXmprUXmXMXmLLLXgitHgityOHmtwOmMmXmTHiZmXMXmVzMgBYYBBYzMolBBZBWNMImMmXmrSeXmXMXmiBtwyOiGrSNHpXmXW"
-      }
-
-    },
-    {
-      "id" : 4,
-      "name" : "Escape Plan 2: Hades",
-      "poster_path" : "https://i.egycdn.com/pic/WmFwZndlY21Udm1wdnZORXZSY21qbW9ObVBtbXZORQ.jpg",
-      "wposter_path" : "https://images7.alphacoders.com/932/thumb-1920-932449.jpg",
-      "year": "2018",
-      "story" : "After his previous mission, security expert Ray Breslin returns to be a team of the most qualified specialists in the arts of escaping from the most powerful prisons, and when one of his most efficient men, Shu Ren, is kidnapped and disappeared inside the most impenetrable prison ever built, where he is run Completely computerized and his build is constantly changing, Ray tries to track him down with the help of several of his former friends.\n",
-      "language" : "English",
-      "country" : "China",
-      "genres": [
-        { "genre" : "Action" },
-        { "genre" : "Crime" },
-        { "genre" : "Thriller" }
-      ],
-      "rating" : "3.8",
-      "duration" : "01:33:38",
-      "cast" : [
-        {
-          "director" : "Steven Miller",
-          "role" : "add_the_role",
-          "pic" : "https://i.egycdn.com/pic/YWxZRWNtWXBtbWp2Y0VjY3dsdk5JeGxsbUk.jpg"
-        },
-        {
-          "actors" : [
-            {
-              "actor" : "Dave Bautista",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtWUV2Y3ZOdkVjdk5UWXZ3TE5FSw.jpg"
-            },
-            {
-              "actor" : "Sylvester Stallone",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtWUVtWWFjbWp2TlRZdnhQbA.jpg"
-            },
-            {
-              "actor" : "Jaime King",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtSGNtYWNtdm1ZamFQbUlhY3c.jpg"
-            }
-          ]
-        }
-      ],
-      "watch" :{
-        "1080p" : "https://back.egybest.co/vs-mirror/vidstream.to/v/qIgxMouEN8"
-      },
-      "download" : {
-        "1080p" : "https://back.egybest.co/vs-mirror/vidstream.to/f/qIgxMouEN8/?vclid=1f74091da2318f68e841a8a0d9e251339cafa01febe7c961013d522dlgggclAGgcgzgcKSLTUFKZlAkIOgczcgcrIKxcgzgcBdzHSeeSSedzisSSxSbkztczcgcOlhgcgzgcXXXgHKLIHKLUFIcLTFcgb"
-      }
-
-    },
-    {
-      "id" : 5,
-      "name" : "Fortune Bank",
-      "poster_path" : "https://i.egycdn.com/pic/WmFwZndlY21Udm1tbVlFbWJtZWNtck5tdk5FbWJtSHc.jpg",
-      "wposter_path" : "data:image/jpeg;base64,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",
-      "year": "2017",
-      "story" : "After dismissing Mohamed Saleh (Mohamed Mamdouh) from the bank he works at due to his continuous violations of the rights of customers, he decides to ally with Amr (Akram Hosni), his colleague in the bank, and Zero (Mohamed Tharwat), their partner in the Playstation games store, in order to steal 15 One million pounds from the bank he (Saleh) used to work for.\n",
-      "language" : "Arabic",
-      "country" : "Egypt",
-      "genres": [
-        { "genre" : "Comedy" }
-      ],
-      "rating" : "6.6",
-      "duration" : "01:57:27",
-      "cast" : [
-        {
-          "director" : "Ahmed El Gendy",
-          "role" : "add_the_role",
-          "pic" : "data:image/jpeg;base64,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"
-        },
-        {
-          "actors" : [
-            {
-              "actor" : "Muhammad Mamdouh",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbW1tdmNtb2NtbUVjbG1ZcGptb052UA.jpg"
-            },
-            {
-              "actor" : "Akram Hosni",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbW1FbVl2bW12Y0VjbWJtRWxjTnp4bXZjdw.jpg"
-            },
-            {
-              "actor" : "Mohamed Tharwat",
-              "role" : "add_the_role",
-              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbW1tdmNtcHZtdWN2Y2NOR05ucFRq.jpg"
+              "pic" : "add_the_pic_url"
             }
           ]
         }
@@ -319,7 +107,356 @@
       }
 
     }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+          "id" : 7,
+          "name" : "Mulan",
+          "poster_path" : "assets/images/mov/mu.jpg",
+          "wposter_path" : "https://m...content-available-to-author-only...m.com/max/1200/1*25l9VAXKaQrWoJhZkm4rJg.png",
+          "year": "add_the_year",
+          "story" : "The events of the movie revolve around the young Chinese girl Mulan who aspires to more than an ordinary life and a traditional marriage, by disguising himself in the image and dress of a warrior, in order to save her father.",
+          "language" : "add_the_lang",
+          "country" : "add_the_country",
+          "genres": [
+            { "genre" : "Action" },
+            { "genre" : "Drama" },
 
+          ],
+          "rating" : "90",
+          "duration" : "120",
+          "cast" : [
+            {
+              "director" : "add_the_name",
+              "role" : "add_the_role",
+              "pic" : "add_the_pic_url"
+            },
+            {
+              "actors" : [
+                {
+                  "actor" : "Yifei Liu",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtVGJtcGFjbG1tbXp4Y3RjbXZ4.jpg"
+                },
+                {
+                  "actor" : "Donnnie Yen",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtdnZOYm1qRWNtRXZOYm1welBtVHo.jpg"
+                },
+                 {
+                  "actor" : "Li Gong",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtTE5tbUVFY2FtVHphbXZQbHg.jpg"
+                },
+                 {
+                  "actor" : "Get Lie",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtbW1FbWp2Y0VjbWRkZExjYUth.jpg"
+                }
+              ]
+            }
+          ],
+          "watch" :{
+            "1080p" : "https://t...content-available-to-author-only...t.bid/movie/mulan-2020/"
+          },
+          "download" : {
+            "1080p" : "https://t...content-available-to-author-only...t.bid/vs-mirror/vidstream.kim/f/1pYze2ZSb4/?vclid=79201774c5ac4347089b57966a8341a86d5ee8dbbddaf72d96dc39e4PEEEjDplEjEvEjgBIpwehAccjcUCwYErkIxEjvjEjtxcujEvEjPmzqmwqITpbMNaokOcbmmEjEb"
+          }
+
+        }
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////
+    {
+          "id" : 8,
+          "name" : "Blue Elephant 2",
+          "poster_path" : "assets/images/mov/file.jpg",
+          "wposter_path" : "https://w...content-available-to-author-only...n.ae/polopoly_fs/1.3607971.1563397399!/image/image.jpg",
+          "year": "add_the_year",
+          "story" : "The events of the second part of the film begin five years after the events of the first part, where Dr. Yahya marries (Lubna), and is summoned to the department of severe cases (8 west of Harem), and there he meets with someone who manipulates his life and the life of his family",
+          "language" : "add_the_lang",
+          "country" : "add_the_country",
+          "genres": [
+            { "genre" : "Drama" },
+          ],
+          "rating" : "90",
+          "duration" : "130",
+          "cast" : [
+            {
+              "director" : "add_the_name",
+              "role" : "add_the_role",
+              "pic" : "add_the_pic_url"
+            },
+            {
+              "actors" : [
+                {
+                  "actor" : "Karim Abduaziz",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtbW1tdmNtVEV2UmNtVGJ2Y0tQYXhtSQ.jpg"
+                },
+                {
+                  "actor" : "Hend Sabry",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtbW1tdmNtanZOZWN2Y3ZjbUdOWXB2bA.jpg"
+                },
+                  {
+                  "actor" : "Nelly Karim",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtbW1tdmNtcGptdWN2Y2NOdm1tbXBMY216.jpg"
+                },
+                {
+                  "actor" : "yad Nassar",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtbW1tdk5FbW1tRUVjbG1ZSWxtYmFtamw.jpg"
+                },
+                  {
+                  "actor" : "hereen Rada",
+                  "role" : "add_the_role",
+                  "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtbW1tbWp2Tm1tdkVjbWJtam1wYm1ibWJtbW16.jpg"
+                },
+              ]
+            }
+          ],
+          "watch" :{
+            "1080p" : "https://t...content-available-to-author-only...t.bid/movie/el-feel-el-azraq-2-2019/?ref=movies-p4"
+          },
+          "download" : {
+            "1080p" : "https://t...content-available-to-author-only...t.bid/vs-mirror/vidstream.to/f/VQHxBcMaCg/?vclid=65145925d0062d2bccb837c0d41721e2f319c1645d30d7d0ed708ff0DbbbBlpoOBbIbBxFENFuNvsPwQgmjtkowFFbBIBbBTPdbBbIbBHZvPuYXDooBozSuybetvpbBIBbBPGxbBbIbBrLfoTSVoNFIbBbw"
+          }
+
+        }
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+{
+      "id" : 9,
+      "name" : "Venom",
+      "poster_path" : "assets/images/mov/venom.jpg",
+      "wposter_path" : "https://w...content-available-to-author-only...h.co/wp-content/uploads/80991034.jpg",
+      "year": "add_the_year",
+      "story" : "Eddie Brock / Phenom (Tom Hardy) is one of the most mysterious, complex and evil characters in the (Marvel) universe, and he is the archenemy of Spider-Man .. Phenom was a completely normal person, until he was subjected to an alien possession",
+      "language" : "add_the_lang",
+      "country" : "add_the_country",
+      "genres": [
+        { "genre" : "Action" },
+      ],
+      "rating" : "95",
+      "duration" : "110",
+      "cast" : [
+        {
+          "director" : "add_the_name",
+          "role" : "add_the_role",
+          "pic" : "add_the_pic_url"
+        },
+        {
+          "actors" : [
+            {
+              "actor" : "Home Hardy",
+              "role" : "add_the_role",
+              "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtWUxjdmNFY21tbXBFbWp2Y21td1RF.jpg"
+            },
+            {
+              "actor" : "Micelli Wiliam",
+              "role" : "add_the_role",
+              "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtYm1ZakVjY3RjeG1JUG1iUG1t.jpg"
+            },
+              {
+              "actor" : "Jeny Slate",
+              "role" : "add_the_role",
+              "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtam1UcGFjeG1IdGNtVG1tRW1n.jpg"
+            },
+            {
+              "actor" : "Riz Ahmed",
+              "role" : "add_the_role",
+              "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtYm1qbUV2Y0VjdmNtamN3bG1IY1BL.jpg"
+            },
+          ]
+        }
+      ],
+      "watch" :{
+        "1080p" : "https://t...content-available-to-author-only...t.bid/movie/venom-2018/?ref=search-p1"
+      },
+      "download" : {
+        "1080p" : "https://t...content-available-to-author-only...t.bid/vs-mirror/vidstream.to/f/X6Rj6FPI7T/?vclid=9e9049914fa7289fe4b2ae6ec47e83e69f2e28d5e2b7ffc51f712303DbbbBTPdbBbIbBHZvPuYXDooBozSuybetvpbBIBbBPGxbBbIbBTGmPdoFboNFYBIBbBlpoOBbIbBxFENFuNvsPwQgmjtkowFFbBbw"
+      }
+
+    }
+       ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+{
+
+      "id" : 10,
+      "name" : "King Kong",
+      "poster_path" : "assets/images/mov/kingKong.jpg",
+      "wposter_path" : "https://i.ytimg.com/vi/hhzrul_MU6c/maxresdefault.jpg",
+      "year": "add_the_year",
+      "story" : "in New York City in 1933, (Carl Denham) tries to work on his new film, and decides to shoot it on the mysterious and dubious Skull Island, and from the moment they arrive, the excitement and mystery begins, when the film\'s",
+      "language" : "add_the_lang",
+      "country" : "add_the_country",
+      "genres": [
+        { "genre" : "Drama" },
+        { "genre" : "Action" },
+      ],
+      "rating" : "90",
+      "duration" : "150",
+      "cast" : [
+        {
+          "director" : "add_the_name",
+          "role" : "add_the_role",
+          "pic" : "add_the_pic_url"
+        },
+        {
+          "actors" : [
+            {
+              "actor" : "Naomi Watts",
+              "role" : "add_the_role",
+              "pic" : "https://i.egycdn.com/pic/YWxZRWNtWVltbWVjY3d4eG1FbVR2bG1J.jpg"
+            },
+            {
+              "actor" : "Jack Black",
+              "role" : "add_the_role",
+              "pic" : "https://i.egycdn.com/pic/YWxZRWNtRW1Udm1tRWNQbW1tZFRqbVR2bUk.jpg"
+            },
+                {
+              "actor" : "Adrien Brody",
+              "role" : "add_the_role",
+              "pic" : "https://i.egycdn.com/pic/YWxZRWNtbW1tbXBhY1BtenhtdmNrTmptSQ.jpg"
+            },
+            {
+              "actor" : "Thomas Kretschamnn",
+              "role" : "add_the_role",
+              "pic" : "https://i.egycdn.com/pic/YWxZRWNtYm1ZcGVjdmNQbWJtYm1CVVRn.jpg"
+            },
+             {
+              "actor" : "Colin Hanks",
+              "role" : "add_the_role",
+              "pic" : "https://i.egycdn.com/pic/YWxZRWNtWUVtYm1hY2xQbVluRFRHdw.jpg"
+            },
+          ]
+        }
+      ],
+      "watch" :{
+        "1080p" : "https://tire.egybest.bid/movie/king-kong-2005/"
+      },
+      "download" : {
+        "1080p" : "https://tire.egybest.bid/vs-mirror/vidstream.to/f/vLnxY2Az3s/?vclid=84be50a7bb0b98f5563e33b5de92b9466834f915b4be3dc6317cbccfyrrriUqYrirsrihxyqoKaHFFiFeLoRrENyVrisirimVFdirsriGAQIAoIywqDTWjpNPFDAArirD"
+      }
+
+    }
+
+
+{
+      "id" : 11,
+      "name" : "Jumanji",
+      "poster_path" : "assets/images/mov/jumanji.jpg",
+      "wposter_path" : "https://i...content-available-to-author-only...g.com/vi/6W3h8SJbniU/maxresdefault.jpg",
+      "year": "add_the_year",
+      "story" : "Four high school students discover an ancient game that thrusts them into the jungle associated with the game settings and its control. To its end, to be able to return to your natural real world.",
+      "language" : "add_the_lang",
+      "country" : "add_the_country",
+      "genres": [
+        { "genre" : "Drama" },
+
+      ],
+      "rating" : "88",
+      "duration" : "add_the_duration",
+      "cast" : [
+        {
+          "director" : "add_the_name",
+          "role" : "add_the_role",
+          "pic" : "add_the_pic_url"
+        },
+        {
+          "actors" : [
+            {
+              "actor" : "Karen Gillan",
+              "role" : "add_the_role",
+              "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtWVlZcGJFY21ZYm1iYXZjUGxL.jpg"
+            },
+            {
+              "actor" : "Jack Black",
+              "role" : "add_the_role",
+              "pic" : "Jack Black"
+            },
+               {
+              "actor" : "The Rock",
+              "role" : "add_the_role",
+              "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtWWptVGpFY2NOb3RjbWptSVBs.jpg"
+            },
+            {
+              "actor" : "Kevin Hart",
+              "role" : "add_the_role",
+              "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtVHZ2Y21hY21ibUVjd2FtbW1Zam12.jpg"
+            },
+              {
+              "actor" : "Nick Jonas",
+              "role" : "add_the_role",
+              "pic" : "https://i...content-available-to-author-only...n.com/pic/YWxZRWNtVGJtYnZ0Y0VjY05tdmNhbG1IY212.jpg"
+            }
+          ]
+        }
+      ],
+      "watch" :{
+        "1080p" : "https://t...content-available-to-author-only...t.bid/movie/jumanji-welcome-to-the-jungle-2017/?ref=search-p1"
+      },
+      "download" : {
+        "1080p" : "https://t...content-available-to-author-only...t.bid/vs-mirror/vidstream.kim/f/5HNc4icTaw/?vclid=dc7cb8a3f1a628aadbc10428f6006df7e2f4df2c8e55110ce0e604f3yrrriUqYrirsrihxyqoKaHFFiFeLoRrENyVrisirimVFdirsriKopFFhvVmawUnBsFvnAArisiriqCGrirsriUCjqYFArFIAKirD"
+      }
+
+    }
+
+
+{
+      "id" : 12,
+      "name" : "Jocker",
+      "poster_path" : "assets/images/mov/jocker2.jpeg",
+      "wposter_path" : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/03-the-joker-w1200-h630-1562679871.jpg",
+      "year": "add_the_year",
+      "story" : "Slowly, pressure and circumstances join forces on a failed comedian until he becomes crazy and turns into a criminal and obsessed killer.",
+      "language" : "add_the_lang",
+      "country" : "add_the_country",
+      "genres": [
+        { "genre" : "Drama" },
+
+      ],
+      "rating" : "92",
+      "duration" : "add_the_duration",
+      "cast" : [
+        {
+          "director" : "add_the_name",
+          "role" : "add_the_role",
+          "pic" : "add_the_pic_url"
+        },
+        {
+          "actors" : [
+            {
+              "actor" : "Brett Cullen",
+              "role" : "add_the_role",
+              "pic" : "https://m.media-amazon.com/images/M/MV5BMTI0NzI0MzU1M15BMl5BanBnXkFtZTcwMjM0Mjg3MQ@@.jpg"
+            },
+            {
+              "actor" : "Frances Conroy",
+              "role" : "add_the_role",
+              "pic" : "https://m.media-amazon.com/images/M/MV5BMTM4OTIzMTg5MF5BMl5BanBnXkFtZTYwNjA5OTIz.jpg"
+            },
+                {
+              "actor" : "Joaquin Phoenix",
+              "role" : "add_the_role",
+              "pic" : "https://m.media-amazon.com/images/M/MV5BZGMyY2Q4NTEtMWVkZS00NzcwLTkzNmQtYzBlMWZhZGNhMDhkXkEyXkFqcGdeQXVyNjk1MjYyNTA@.jpg"
+            },
+            {
+              "actor" : "Robert De Niro",
+              "role" : "add_the_role",
+              "pic" : "https://m.media-amazon.com/images/M/MV5BMjAwNDU3MzcyOV5BMl5BanBnXkFtZTcwMjc0MTIxMw@@.jpg"
+            },
+          ]
+        }
+      ],
+      "watch" :{
+        "1080p" : "https://tire.egybest.bid/movie/joker-2019/"
+      },
+      "download" : {
+        "1080p" : "https://tire.egybest.bid/vs-mirror/vidstream.to/f/LAzCDDNUJ3/?vclid=05f0d0ca7ed50645acd4df1e6f200addf995a9ab4e2834436540b9dadWWWtcEbWtWqWtaDoEPmdwrrtrufPTWhnovWtqtWtRvrCtWqWtmPerraKvRdGczMqrKzggWtWy"
+      }
+
+    }
+          ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+           ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
   ],
   "popular_movies": [
@@ -327,3 +464,4 @@
     {"id": 1}
   ]
 }
+
