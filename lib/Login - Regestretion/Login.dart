@@ -39,6 +39,7 @@ void vaild()
   if(FormKey.currentState.validate())
   {
     print(User_Name +'  '+Password);
+    Navigator.of(context).pushNamed('go');
   }
 }
 
