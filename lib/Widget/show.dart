@@ -56,15 +56,15 @@ class _ShowState extends State<Show> {
       },
       child: Container(
         padding: EdgeInsets.only(left: 130.0),
-        margin: EdgeInsets.symmetric(vertical: 2.0,horizontal: 15),
+        margin: EdgeInsets.symmetric(vertical: 5.0,horizontal: 15),
         width: MediaQuery.of(context).size.width*0.9,
-        height: MediaQuery.of(context).size.height*0.2,
+        height: MediaQuery.of(context).size.height*0.23,
 
         decoration: BoxDecoration(
           color: Color(0xff11182E),
           borderRadius: BorderRadius.circular(20.0),
           image: DecorationImage(
-            image:AssetImage(widget.image),
+            image:NetworkImage(widget.image),
             alignment: Alignment.topLeft,
           ),
         ),
@@ -72,7 +72,7 @@ class _ShowState extends State<Show> {
           children: [
             Row(
               children: [
-                SizedBox(width: MediaQuery.of(context).size.width*0.4,),
+                SizedBox(width: MediaQuery.of(context).size.width*0.45,),
 
                 widget.indx!=-1?IconButton(icon: Icon(Icons.favorite,color: Current,size: Sizee.toDouble(),), onPressed: change):
                Text('      \n\n'),
@@ -80,7 +80,7 @@ class _ShowState extends State<Show> {
             ),
             SizedBox(height: 0.0,),
             Container(
-              padding: EdgeInsets.all(0.0),
+              padding: EdgeInsets.only(left: 10),
 
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
