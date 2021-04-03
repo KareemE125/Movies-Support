@@ -69,3 +69,7 @@ flutter:
     - family: Coustard
       fonts:
         - asset: assets/fonts/Coustard-Regular.ttf
+
+    - family: NewTeg
+      fonts:
+        - asset: assets/fonts/NewTegomin-Regular.ttf

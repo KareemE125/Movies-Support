@@ -527,8 +527,12 @@
       "language": "add_the_lang",
       "country": "add_the_country",
       "genres": [
-        {"genre": "Drama"},
-        {"genre": "Action"}
+        {
+          "genre": "Drama"
+        },
+        {
+          "genre": "Action"
+        }
       ],
       "rating": "90",
       "duration": "150",
@@ -578,8 +582,8 @@
     {
       "id": 11,
       "name": "Jumanji",
-      "poster_path": "https://i.egycdn.com/pic/WmFwZndlY21ibUxOakVjd1Rva052bW12dHc.jpg",
-      "wposter_path": "https://i...content-available-to-author-only...g.com/vi/6W3h8SJbniU/maxresdefault.jpg",
+      "poster_path": "https://images-na.ssl-images-amazon.com/images/I/A1hFzTczzJL._AC_SL1500_.jpg",
+      "wposter_path": "https://wallpaperaccess.com/full/2809156.jpg",
       "year": "add_the_year",
       "story": "Four high school students discover an ancient game that thrusts them into the jungle associated with the game settings and its control. To its end, to be able to return to your natural real world.",
       "language": "add_the_lang",
@@ -687,12 +691,401 @@
       "download": {
         "1080p": "https://tire.egybest.bid/vs-mirror/vidstream.to/f/LAzCDDNUJ3/?vclid=05f0d0ca7ed50645acd4df1e6f200addf995a9ab4e2834436540b9dadWWWtcEbWtWqWtaDoEPmdwrrtrufPTWhnovWtqtWtRvrCtWqWtmPerraKvRdGczMqrKzggWtWy"
       }
+    },
+    {
+      "id": 13,
+      "name": "Moana",
+      "poster_path": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt3521164%2F&psig=AOvVaw2DNO8y2BXT_Hypg5ceHmpm&ust=1617492678970000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKCVr_jb4O8CFQAAAAAdAAAAABAI",
+      "wposter_path": "https://l...content-available-to-author-only...t.com/proxy/NkhXj9xw-O5cloKuvjZFpT8Umqa_RiQC6-https://www.google.com/imgres?imgurl=https%3A%2F%2Fd1nslcd7m2225b.cloudfront.net%2FPictures%2F480xAny%2F2%2F1%2F1%2F1250211_Moana.jpg&imgrefurl=https%3A%2F%2Fwww.screendaily.com%2Freviews%2Fmoana-afi-fest-review%2F5111109.article&tbnid=WvbPAMdMS9kYYM&vet=12ahUKEwj84tz12-DvAhVHwuAKHbZsB88QMygBegUIARDdAQ..i&docid=kCnzcxacYyAX5M&w=480&h=286&q=moana&ved=2ahUKEwj84tz12-DvAhVHwuAKHbZsB88QMygBegUIARDdAQ",
+      "year": "2016",
+      "story": "the events of the movie in ancient Polynesia revolve around (Moana and Ayalaki), a very enthusiastic sailor, and the only daughter of a leader of a group of sailors",
+      "language": "English",
+      "country": "United States of America",
+      "genres": [
+        {
+          "genre": "comedy"
+        },
+        {
+          "genre": "Adventure"
+        },
+        {
+          "genre": "Animation"
+        },
+        {
+          "genre": "family"
+        }
+      ],
+      "rating": "7.5",
+      "duration": "01:47:13",
+      "cast": [
+        {
+          "director": "Ron clements",
+          "role": "director",
+          "pic": "https://b...content-available-to-author-only...t.co/actor/ron-clements/"
+        },
+        {
+          "actors": [
+            {
+              "actor": "Jemaine clement",
+              "role": "Tamatoa",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/jemaine-clement/"
+            },
+            {
+              "actor": "Auli I Cravalho",
+              "role": "Moana",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/aulii-cravalho/"
+            },
+            {
+              "actor": "Dwayne Johnson",
+              "role": "Maui ",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/dwayne-johnson/"
+            },
+            {
+              "actor": "Temuera Morrison",
+              "role": "chief tui",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/temuera-morrison/"
+            },
+            {
+              "actor": "Rachel house",
+              "role": "Gramma Tala",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/rachel-house/"
+            }
+          ]
+        }
+      ],
+      "watch": {
+        "1080p": "https://b...content-available-to-author-only...t.co/vs-mirror/vidstream.to/v/i1Rp15AXko"
+      },
+      "download": {
+        "1080p": "https://o...content-available-to-author-only...m.online/dl/cdac4d4ece320b02QsH3dU9jBb53tubuR.XpQ-DObgpLlVvbr7-xcSHg__.MVljelRrSmVSQUJwMVUxYnd6MXVWRStPTCtRd0k0bllmd0tPOFU2K05nV2pzcFZ0YlFEVGd1OVRXTmtsZ0kyeERUR0hVN01JdUNCNEx4c0Nhb0VNZVRRSW5VZDV1TDBON1YwaUdVbndqWmR3bmRvYkJWS3lTSkY1Vzh5YjdEaVQyc3RyVWF4bmdlRmJFZis3dmlKcW5vdkFGSkhnbDEzdkV5K0p3QXltM0x6OGRwWEdaVnRxWjZvdmQ5eERNUU1CQWFBWFlTSnBpMHdnN0lPME00UmRVbUtSbDBKQjJNZFNrRGFqN0t2MzJwVnlyU2tDRUsxNEVudzZBR2tXNU9VVXdxcmxDYk14TEZLT01rYzBGRTBaVUJPRE1EeDlEMWRQcmtNWHNWdTlpSXdmN3RCVHF0aDZSSlNxc3MzWXY3MWYycFNhOXNhbWIrZGdQL1lOVmQrNEh2clZKMjRGUmpyUkZMQUhqZVpxcHRod3RvQTF3Ym9CeElJMlNDMGZ4UT09"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Trolls World Tour",
+      "poster_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BMTI5NmViY2YtNDk5NC00NjY2LWFlNGYtOGEwNzY1MTZmMjFmXkEyXkFqcGdeQXVyMTMxODk2OTU%40._V1_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt6587640%2F&tbnid=hEyl6ijcBagN0M&vet=12ahUKEwjAl8fg3-DvAhVz8eAKHTJnBpIQMygBegUIARDFAQ..i&docid=8VzOXvWlh9tMfM&w=3158&h=5000&q=trolls%20world%20tour&ved=2ahUKEwjAl8fg3-DvAhVz8eAKHTJnBpIQMygBegUIARDFAQ",
+      "wposter_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2F08AExF6dETA%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D08AExF6dETA&tbnid=ii4714UQF9giMM&vet=12ahUKEwjAl8fg3-DvAhVz8eAKHTJnBpIQMygCegUIARDHAQ..i&docid=OH_kVS0HSTK5HM&w=1280&h=720&q=trolls%20world%20tour&ved=2ahUKEwjAl8fg3-DvAhVz8eAKHTJnBpIQMygCegUIARDHAQ",
+      "year": "2020",
+      "story": "When the Queen of the Hard Rock Trolls tries to take over all the Troll kingdoms, Queen Poppy and her friends try different ways to save all the Trolls",
+      "language": "English ",
+      "country": "United States of America",
+      "genres": [
+        {
+          "genre": "comedy"
+        },
+        {
+          "genre": "Adventure"
+        },
+        {
+          "genre": "Animation"
+        },
+        {
+          "genre": "family"
+        }
+      ],
+      "rating": "6.1",
+      "duration": "01:30:44",
+      "cast": [
+        {
+          "director": "walt dohrn",
+          "role": "director",
+          "pic": "https://b...content-available-to-author-only...t.co/actor/walt-dohrn/"
+        },
+        {
+          "actors": [
+            {
+              "actor": "anna kendrick",
+              "role": "Poppy ",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/anna-kendrick"
+            },
+            {
+              "actor": "justin-timberlake",
+              "role": "Branch",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/justin-timberlake/"
+            },
+            {
+              "actor": "rachel-bloom",
+              "role": "Barb ",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/rachel-bloom/"
+            },
+            {
+              "actor": "ozzy-osbourne",
+              "role": "thrash",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/ozzy-osbourne/"
+            }
+          ]
+        }
+      ],
+      "watch": {
+        "1080p": "https://b...content-available-to-author-only...t.co/vs-mirror/vidstream.online/v/uhhnTNVa6W"
+      },
+      "download": {
+        "1080p": "https://o...content-available-to-author-only...m.kim/dl/bce45a5739c83209ulp7kGvhsT4ctYMR3.MnfMi3euIh0tge44APdPiQ__.UW83Zy9JM2g5Yk1ueE81VHRKeGpzZlQzZ052enlPU1BET3d0cGdsVTBZMHF3QVdnUm8zaEdDc2V6NGswdm1uUDEvL3p5eVA2NjdTdm05TDI1WVFsV3VtcmFpVVA0THl5RXBCMDdpYzZUdnFXNHhYb0lnNTN5NDZueG1FMnljUEwvOU04YWxEejlCVmV4Z3VDS1FpZS8zbzNwdGIxS1A2WlBRTEJkWExRR1VlS3BEZmJPNitiMGtwaXFXcE53MFA3NnFIKzVCTjAwU2FkSWJ4eS90Q1Z4Q0ZyOGlzc282ZFpaN2ZXY2NuYVFtY3UwWDNOTWRXSFpaaUQzYk5qZFBCcm9UOEx0THVBSWh6cWEyOWdKTkE5M2xOK01PT0NqMnBkZmk2aWpIcVVYSHQrVUNOa044VTFIRUFKSW83SEx4WjcwbDhzRzB2OWFWdUt4TmZCeDM4dWhsKzJ4Vm9SZWZBRFlUY1F4WkZwVFZQVkEvR0p6V3YxQ25GNjdPUDRGWnJYUTI0Z0pFc3E2VVUraXc9PQ__"
+      }
+    },
+    {
+      "id": 15,
+      "name": "The Son of Bigfoot",
+      "poster_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2Fc%2Fc1%2FThe_Son_of_Bigfoot_Poster.jpg%2F220px-The_Son_of_Bigfoot_Poster.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThe_Son_of_Bigfoot&tbnid=rYhLUDx5gLtbGM&vet=12ahUKEwjL8LSA5ODvAhUD0eAKHQYIB-wQMygAegUIARCCAQ..i&docid=CUeHJlTkscdqQM&w=220&h=311&q=The%20Son%20of%20Bigfoot&ved=2ahUKEwjL8LSA5ODvAhUD0eAKHQYIB-wQMygAegUIARCCAQ",
+      "wposter_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fxydu6XhKVFf5FomLi9diWjoWc5d.jpg&imgrefurl=https%3A%2F%2Fshow.alfajertv.com%2Fmovies%2Fthe-son-of-bigfoot%2F&tbnid=vE5VoAkyreFMPM&vet=12ahUKEwjL8LSA5ODvAhUD0eAKHQYIB-wQMygTegUIARCtAQ..i&docid=1PJ6NIO88oDe-M&w=1920&h=1080&q=The%20Son%20of%20Bigfoot&ved=2ahUKEwjL8LSA5ODvAhUD0eAKHQYIB-wQMygTegUIARCtAQ",
+      "year": "2017",
+      "story": "teenager - a stranger to his homeland - embarks on an epic and daring search journey, trying to unravel the mystery behind his father's long disappearance, only to realize that his father represents nothing but another mythical Bigfoot, who hid in the deep forests for years in order to protect himself and his family from ( Hairco), the giant company that aims to conduct scientific experiments on the DNA of bigfoot organisms",
+      "language": "English",
+      "country": " Belgian",
+      "genres": [
+        {
+          "genre": "comedy"
+        },
+        {
+          "genre": "Adventure"
+        },
+        {
+          "genre": "Animation"
+        },
+        {
+          "genre": "family"
+        }
+      ],
+      "rating": "6.1",
+      "duration": "01:32:14",
+      "cast": [
+        {
+          "director": "Ben Stassen",
+          "role": "add_the_role",
+          "pic": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcineuropa.org%2FimgCache%2F2020%2F06%2F17%2F1592386641748_0620x0435_0x0x0x0_1592391935813.jpg&imgrefurl=https%3A%2F%2Fcineuropa.org%2Fen%2Finterview%2F389345%2F&tbnid=4Au2tp7-MRD4UM&vet=12ahUKEwiEmuSK5eDvAhVMdRQKHXryAzkQMygAegUIARCGAQ..i&docid=hbVqCrXe6dOysM&w=620&h=435&q=Ben%20Stassen&hl=en&ved=2ahUKEwiEmuSK5eDvAhVMdRQKHXryAzkQMygAegUIARCGAQ"
+        },
+        {
+          "actors": [
+            {
+              "actor": "cinda-adams ",
+              "role": "Wait",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/cinda-adams/"
+            },
+            {
+              "actor": "laila-berzins",
+              "role": "Weecha",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/laila-berzins/"
+            },
+            {
+              "actor": "joey-camen",
+              "role": "Principal Jones",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/joey-camen/"
+            },
+            {
+              "actor": "robin atkin downes",
+              "role": "Truck Driver ",
+              "pic": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F378800000703584558%2Fb7bb435360ddd7fdfd664477c9b5f6dd_400x400.jpeg&imgrefurl=https%3A%2F%2Ftwitter.com%2Frobin_a_downes&tbnid=6F2wcff06kJEmM&vet=12ahUKEwif-pGZ5uDvAhWuEGMBHU31CXwQMygCegUIARDGAQ..i&docid=2y0vYeFpTxBbNM&w=400&h=400&q=robin%20atkin%20downes&ved=2ahUKEwif-pGZ5uDvAhWuEGMBHU31CXwQMygCegUIARDGAQ"
+            }
+          ]
+        }
+      ],
+      "watch": {
+        "1080p": "https://b...content-available-to-author-only...t.co/vs-mirror/vidstream.kim/v/AZA2fJwJfU"
+      },
+      "download": {
+        "1080p": "https://o...content-available-to-author-only...m.online/dl/2fa20a5996f88bf8jmlr4bryOl92uS2b7.ZtjFNtkVMr4xciS%7ChxeBSA__.Q01JcnpyamJLYWVMVVBvUVJUdXlWd3dEWS9FSmFQNUtnSzMvdEdOQ0xiRzJZZU1WaXZmWm1ydDZXWDgwWEZNbXZSaDF5ZFQxSE5KZStOS1FhNTJPSzMrK3h1YWxuc2dPK29RRWdTV2hkQWl0MldhWmlRTk0xR1JRYTJsVjBQZ3ZqMnpXeklNNG55djdnb0Z4UEVoUFYwTFVpNFVnQ3EySHVYanhkUGIrRmtQZlhiT1pJVWNnaVJJaTFGQ1NXNlBiM0ZGcGFUdEpoSG5DZXVlZFZmT01RWFFuZ3BRRmpXdUE5U1FsWktVUDNiUlZyYWVXV3YwTjBvOTFLV2Y2aURpL1pzcCtZSFNsL3dZdllXaFU3dnNvZlR4eWtSUzFYV2R4c3ZqZTNqVEVrOXVXRTNPek9pOHZrZ2RWRnFHcXMyUTlKL0lsZ2U0dkJoYUdML1lGMHhjaStoZXNaV3FoQUpLNjdUV2RKdDZNQ0Vwc0czYVBWZVBTSkpmc3BidllZN1RuR0dOUDNacys0LzAzY0E9PQ__"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Inside Out",
+      "poster_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flumiere-a.akamaihd.net%2Fv1%2Fimages%2Frich_insideout_header_mobile_ce11b9a6.jpeg%3Fregion%3D0%2C0%2C640%2C952&imgrefurl=https%3A%2F%2Fmovies.disney.com%2Finside-out&tbnid=ak6pP5nGKm9x2M&vet=12ahUKEwjm0_b55uDvAhWu2-AKHcP2BYMQMygBegUIARDVAQ..i&docid=qXOWbGKG63-35M&w=640&h=952&q=inside%20out&ved=2ahUKEwjm0_b55uDvAhWu2-AKHcP2BYMQMygBegUIARDVAQ",
+      "wposter_path": "https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.bibalex.org%2FSCIplanet%2FAttachments%2FArticle%2FMediumImage%2FVDh66SjECT_20180311152512381.jpg&imgrefurl=https%3A%2F%2Fwww.bibalex.org%2Fsciplanet%2FArticle%2FDetails%3Fid%3D12336&tbnid=TH7INSq1QTvuxM&vet=12ahUKEwjm0_b55uDvAhWu2-AKHcP2BYMQMygCegUIARDXAQ..i&docid=ceEQX4Y4Uw61iM&w=1000&h=562&q=inside%20out&ved=2ahUKEwjm0_b55uDvAhWu2-AKHcP2BYMQMygCegUIARDXAQ",
+      "year": "2015",
+      "story": ", the film's story revolves around the girl (Riley) who moves to (San Francisco) with her family, after her father takes over a new job there, where she is controlled by some emotions such as (happiness, fear, anger, sadness, disgust), and she tries (Riley) With the help of her underlying feelings that she gives her daily advice to overcome the suffering of moving to this new city, she also tries to maintain her positive feelings",
+      "language": "English ",
+      "country": "United States of America",
+      "genres": [
+        {
+          "genre": "comedy"
+        },
+        {
+          "genre": "Adventure"
+        },
+        {
+          "genre": "Animation"
+        },
+        {
+          "genre": "family"
+        },
+        {
+          "genre": "Drama"
+        }
+      ],
+      "rating": "8.1",
+      "duration": "01:34:38",
+      "cast": [
+        {
+          "director": "Pete Docter",
+          "role": "director",
+          "pic": "https://b...content-available-to-author-only...t.co/actor/pete-docter/"
+        },
+        {
+          "actors": [
+            {
+              "actor": "Amy poehler ",
+              "role": "Joy",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/amy-poehler/"
+            },
+            {
+              "actor": "Bill Hader",
+              "role": "Fear",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/bill-hader/"
+            },
+            {
+              "actor": "Phyllis smith",
+              "role": "sadness",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/phyllis-smith/"
+            },
+            {
+              "actor": "Mindy kaling",
+              "role": "Disgust ",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/mindy-kaling/"
+            }
+          ]
+        }
+      ],
+      "watch": {
+        "1080p": "https://b...content-available-to-author-only...t.co/vs-mirror/vidstream.kim/v/mQawUIzupv"
+      },
+      "download": {
+        "1080p": "https://a...content-available-to-author-only...m.to/dl/8cbe38c4cddfb67eQsLeD8JodmyIjwG6B.CRlJcr2FfNser6XNysgfvQ__.aFAwOWsxL2l0VFpyRmZBNXd6MFhPckNRRDB3STJRRmN4TE15M0UwK3cvMk9GR2pvTVRVZmJBZE1KMWVLaVZ2WmdxRnpndUZRYU94NTBkT3lCNzZraVVLVllsMG16b0tDdFBud2lhNDU5TThXZXp2eFVNQXNlclBHWG5FU3hOazY0NTVEcFV5Q0cwVkZxTWZzT3hVQmRidlBoYnRmN2RaZVJUdTg0bkFxbzVqREJtbW9MbHFLTVBSSWx2UGloeDl0dDZ2TVFnMkxIOVhoOHZqZkdxT3NNT0J6bDhmRkFaZm12VktxYkRRNkFMN1h3OXNRa25ieVFRVFN6K05WU2UxSVVYaXJySGxaS0NOeGZ5RSsyU3orUHVQUUUrWHE3QW5iUzFJQnBDaGVINHIrdDd6c2lWR3lPUC9TZGhjeE5xSEZCNDRqQldOQTRkSGExTGdUVGVjb2pycWhZckM4eThNV1Q0QkEzcTQzWTl5TlpWemRER3FYMGdTelpRUGkrV2crRE5VPQ__"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Coco",
+      "poster_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA%40._V1_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt2380307%2F&tbnid=AX4YLGKCB8t9GM&vet=12ahUKEwjcq5-06eDvAhUHYBQKHSxrDFwQMygAegUIARDUAQ..i&docid=XkWma8u150DV2M&w=1984&h=2835&q=coco&ved=2ahUKEwjcq5-06eDvAhUHYBQKHSxrDFwQMygAegUIARDUAQ",
+      "wposter_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.newyorker.com%2Fphotos%2F5b23d8ad0a4f5b3d66492b14%2F4%3A3%2Fw_1483%2Ch_1112%2Cc_limit%2FTolentino-Coco.jpg&imgrefurl=https%3A%2F%2Fwww.newyorker.com%2Fculture%2Fcultural-comment%2Fcoco-a-story-about-borders-and-love-is-a-definitive-movie-for-this-moment&tbnid=n7yJtyiIU7BsMM&vet=12ahUKEwjcq5-06eDvAhUHYBQKHSxrDFwQMygEegUIARDcAQ..i&docid=TgZT0mc9QXI6mM&w=1483&h=1112&q=coco&ved=2ahUKEwjcq5-06eDvAhUHYBQKHSxrDFwQMygEegUIARDcAQ",
+      "year": "2017",
+      "story": "(Miguel) is a 12-year-old boy who has a great passion for music even though his family has banned it for generations, and he decides to visit the place where his favorite musician (Ernesto de la Cruz) lies on the Day of the Dead that is held annually in Mexico, and ends with it The situation in the land of the dead, where he meets his departed relatives, and gets to know his family's secrets",
+      "language": "English",
+      "country": "United states of America ",
+      "genres": [
+        {
+          "genre": "comedy"
+        },
+        {
+          "genre": "Adventure"
+        },
+        {
+          "genre": "Animation"
+        },
+        {
+          "genre": "family"
+        }
+      ],
+      "rating": "8.4",
+      "duration": "01:45:02",
+      "cast": [
+        {
+          "director": "lee unkrich",
+          "role": "director",
+          "pic": "https://b...content-available-to-author-only...t.co/actor/lee-unkrich/"
+        },
+        {
+          "actors": [
+            {
+              "actor": "benjamin bratt",
+              "role": "Ernesto de la Cruz ",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/benjamin-bratt/"
+            },
+            {
+              "actor": "gael garcia bernal",
+              "role": "Héctor ",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/gael-garcia-bernal/"
+            },
+            {
+              "actor": "alanna ubach ",
+              "role": "Mamá Imelda",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/alanna-ubach//"
+            },
+            {
+              "actor": "renee victor",
+              "role": "Abuelita ",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/renee-victor/"
+            }
+          ]
+        }
+      ],
+      "watch": {
+        "1080p": "https://b...content-available-to-author-only...t.co/vs-mirror/vidstream.to/v/wmb7k5up9q"
+      },
+      "download": {
+        "1080p": "https://o...content-available-to-author-only...0.space/dl/ca1616f80c0d13a4mPP-OJgIJ51a8wNMC.S3tlxl2GgYs5SguL7rWa5A__.cW1NaGxrbDU2YTFRdDhrK3JYc01CakdRZ3VLSzhlT0VYdEMxQlJiQXc4Uk1Ba3U4RjhxaHRnUmt4aFBLbGwzVGNtRE1kT05EZloxQVl6b000UHFnWXIzZ01RU2lVRFJWVW5RRVhqTWt1K3owbjBsWmltaDhWSUFEUXg2V3hkcytQRVRTKzVXdFp4M3c5Uk5MZTRDZ1U3QWxUUG1OVUZYNFZkWmFBQ2JDNGlIZnU3dFlOcTQyMjF0cGRpOEJmNGhOb205eldReUFGRmhYSlFJK09DV0tQZnVrZ3Y5NHhBMjlMc3lLdUJYRGZVS1llYUJCUjdZejNtdW9KZzRTSTU1aG1uajMwWHdSNVNDa3Zrc0xMNTJkSXBKUDhGb1hjamg4SEk1M3ZmNVkybTZYeG9QaXR4Slc1QVVtSXhkWTBnRnJwQ3FsT0RMM3o4MUpFUUpRa0xQODZ3NFJXNGF0MkJWbTZwR25kWkhKRUxDOXNSRHhOZ2RkV1F0d1lYdzY_"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Frozen",
+      "poster_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flumiere-a.akamaihd.net%2Fv1%2Fimages%2Fimage_bf2c13ad.jpeg%3Fregion%3D0%252C0%252C540%252C810&imgrefurl=https%3A%2F%2Fen.disneyme.com%2Fmovies%2Fmovies%2Ffrozen-2&tbnid=wfMEW-fgTPtvsM&vet=12ahUKEwiQzrCI7ODvAhVB-RQKHfcYA_YQMygAegUIARDVAQ..i&docid=E5T3Rve3dz9lWM&w=540&h=810&q=Frozen&ved=2ahUKEwiQzrCI7ODvAhVB-RQKHfcYA_YQMygAegUIARDVAQ",
+      "wposter_path": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fapi.time.com%2Fwp-content%2Fuploads%2F2014%2F02%2Ffrozen-let-it-go-covers.jpg&imgrefurl=https%3A%2F%2Ftime.com%2F21516%2Fpastor-claims-frozen-will-turn-your-children-gay%2F&tbnid=4lkFo2cTqBEp-M&vet=12ahUKEwiQzrCI7ODvAhVB-RQKHfcYA_YQMygDegUIARDbAQ..i&docid=c8JbkRiQiL-5fM&w=1400&h=933&q=Frozen&ved=2ahUKEwiQzrCI7ODvAhVB-RQKHfcYA_YQMygDegUIARDbAQ",
+      "year": "2013",
+      "story": "princesses Elsa (Edna Menzel) The Next Queen and Anna (Kristen Bell). Elsa possessed a unique superpower that could create snow and ice, but she suppressed that power due to an accident that shocked her. During Elsa's inauguration as Queen, things get out of control and she takes a complicated path and everything starts to collapse, so Elsa escapes. Anna decides to accompany Kristoff (Jonathan Grove) and Olive (Josh Gad) on a perilous journey in order to find Elsa and save the kingdom before it's too late",
+      "language": "english",
+      "country": "United states of America",
+      "genres": [
+        {
+          "genre": "comedy"
+        },
+        {
+          "genre": "Adventure"
+        },
+        {
+          "genre": "Animation"
+        },
+        {
+          "genre": "family"
+        }
+      ],
+      "rating": "7.5",
+      "duration": "01:42:14",
+      "cast": [
+        {
+          "director": "chris buck",
+          "role": "director ",
+          "pic": "https://b...content-available-to-author-only...t.co/actor/chris-buck/"
+        },
+        {
+          "actors": [
+            {
+              "actor": "kristen bell",
+              "role": "Anna",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/kristen-bell/"
+            },
+            {
+              "actor": "Idina Menzel",
+              "role": "Elsa",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/idina-menzel/"
+            },
+            {
+              "actor": "Santino Fontana",
+              "role": "Hans",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/santino-fontana/"
+            },
+            {
+              "actor": "Josh Gad",
+              "role": "Olaf ",
+              "pic": "https://b...content-available-to-author-only...t.co/actor/josh-gad/"
+            }
+          ]
+        }
+      ],
+      "watch": {
+        "1080p": "https://b...content-available-to-author-only...t.co/vs-mirror/vidstream.kim/v/xdbWIxt6R9"
+      },
+      "download": {
+        "1080p": "https://a...content-available-to-author-only...m.to/dl/afba6912ab9322cfWodmdnMtSo-eEj0er.C%7CHaTNov7cT5Ck34qoruAA__.NzlxVDZEOGlwYmRnbXJKWjRDOHk2MU1rUUpreVIySklvNzlSTm9oUElUeWtNWHc0VnlsNkZsUVR3eXV1SEIzMWQzMXdZTnNJWGFUbFhaOFFmcm9nemNrNk10OWxQbFNZWndyOHlSVUd0N21abE9EbVNGOVU2dzUxdU92SHpWNjlBRG1XZVNHODhScll3UDVJWjE1aVR0Wkp6alNsRDVybkNyRVlQOHMvampxSWhsU2t0bzVuNkJTRzJ3R2FVb0NIQ3p4WjVCaDhyRkdkVVhNVlNqbU5kOEowclVEbityL21NRmZRVWI2a3p1bDJ5Y0orVjI5dUhBU2h4MFNLWmpQdk5mLzlyV1o4V0ZrTXdwTTR4N1ZCaW4rQ1d2eVB6STg1WVA1aW9oQnY4Wjh5dU1oU1IxODdGb0tCcmNZYWFGU0EzdzduTnc5Q2lNcmtpZmRMcTFuaVVFK0I1dGNjNGxSNEJqVFZHcmw2OHFFZ25GbWlHalJ0cCthWW9yUUowY2s9"
+      }
     }
   ],
   "popular_movies": [
-    {"id": 0},
-    {"id": 1}
+    {
+      "id": 0
+    },
+    {
+      "id": 1
+    }
   ]
-
 }
 
