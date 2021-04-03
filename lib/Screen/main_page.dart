@@ -34,12 +34,14 @@ var mycontroller=TextEditingController();
 
 class _Main_PageState extends State<Main_Page> {
   List genreList = [];
+  List popList = [];
 
   @override
   void initState() {
     super.initState();
     genreList = MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreAction, jsonResponse);
-    print(genreList);
+    popList = MovieJson.getPopularIndexs(jsonResponse);
+    print(popList);
 
   }
 
@@ -131,13 +133,15 @@ class _Main_PageState extends State<Main_Page> {
             ),
             Container(
               height: MediaQuery.of(context).size.height * 0.35,
-              child: ListView(
+              child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                children: [
-                  ...Test.myfilm.map((e) {
-                    return Popular_Movies(e['image'], e['name']);
-                  }).toList(),
-                ],
+                itemBuilder: (ctx,index){
+                  return Popular_Movies(MovieJson.getPosterByIndex(popList[index], jsonResponse),MovieJson.getNameByIndex(popList[index], jsonResponse),MovieJson.getGenresByIndex(popList[index], jsonResponse),popList[index]);
+                },
+                itemCount: popList.length,
+                
+                
+               
               ),
             ),
             Text(

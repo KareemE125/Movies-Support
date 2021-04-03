@@ -1,16 +1,35 @@
 import 'package:flutter/material.dart';
+import 'package:movies_support/JSON%20Service/movies_json_service.dart';
+
+import '../main.dart';
 
 class Popular_Movies extends StatelessWidget {
   final String image;
   final String name;
+  final List gneres;
+  final int id;
 
-   Popular_Movies( this.image, this.name) ;
+   Popular_Movies( this.image, this.name,this.gneres,this.id) ;
+
+  String Genres(){
+
+    String ahmed='';
+    for(String s in MovieJson.getGenresByIndex(id, jsonResponse) ){
+      ahmed+=s.toString();
+      print(s);
+      if(s.toString() == MovieJson.getGenresByIndex(id, jsonResponse).last){ break; }
+      ahmed+=', ';
+
+    }
+    return ahmed;
+  }
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: (){
-        Navigator.of(context).pushNamed('det',arguments:
-        name,
+        Navigator.of(context).pushNamed('det',
+          arguments: id,
         );
       },
 
@@ -28,7 +47,7 @@ class Popular_Movies extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(20),
-              child: Image.asset(
+              child: Image.network(
               image,
                 fit: BoxFit.cover,
                 height:  MediaQuery.of(context).size.height *0.24,
@@ -47,9 +66,9 @@ class Popular_Movies extends StatelessWidget {
                         color: Colors.white, fontSize: 15, fontFamily: 'Viga'),
                   ),
                   Text(
-                    'action,drama,fantasy',
+                    Genres(),
                     style: TextStyle(
-                        color: Colors.white30, fontSize: 10, fontFamily: 'Viga'),
+                        color: Colors.white30, fontSize: 12, fontFamily: 'Viga'),
                   ),
 
                 ],
@@ -62,3 +81,5 @@ class Popular_Movies extends StatelessWidget {
     );
   }
 }
+
+
