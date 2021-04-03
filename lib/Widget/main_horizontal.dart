@@ -16,7 +16,6 @@ class Popular_Movies extends StatelessWidget {
     String ahmed='';
     for(String s in MovieJson.getGenresByIndex(id, jsonResponse) ){
       ahmed+=s.toString();
-      print(s);
       if(s.toString() == MovieJson.getGenresByIndex(id, jsonResponse).last){ break; }
       ahmed+=', ';
 

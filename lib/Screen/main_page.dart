@@ -8,6 +8,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../main.dart';
 
+List<int> Fav=[];
 
 enum Type {
   action,
@@ -19,9 +20,6 @@ enum Type {
 }
 
 Type ty = Type.action;
-List<Map<String,Object>> Fav=[];
-
-
 Color background = Color(0xff121212);
 
 Color backgroun = Color(0xff12172D);
@@ -41,7 +39,18 @@ class _Main_PageState extends State<Main_Page> {
     super.initState();
     genreList = MovieJson.getMoviesOfGenresIndexs(MovieJson.GenreAction, jsonResponse);
     popList = MovieJson.getPopularIndexs(jsonResponse);
-    print(popList);
+
+
+  }
+
+  void Search(String val){
+    for(int i =0 ; i<jsonResponse['all_movies'].length ; i++){
+      if(MovieJson.getNameByIndex(i, jsonResponse).toLowerCase() == val.toLowerCase()){
+        Navigator.of(context).pushNamed('det',
+          arguments: i,
+        );
+      }
+    }
 
   }
 
@@ -59,15 +68,7 @@ class _Main_PageState extends State<Main_Page> {
             child: TextField(
               controller: mycontroller,
               textInputAction: TextInputAction.search,
-              onSubmitted: (val){
-                for(int  i=0;i<Test.myfilm.length;i++){
-                  if(val==Test.myfilm[i]['name']){
-                    Navigator.of(context).pushNamed('det',
-                      arguments: Test.myfilm[i]['name'],
-                    );
-                  }
-                }
-              },
+              onSubmitted: (val)=>Search(val),
               style: TextStyle(fontSize: 23,fontFamily: 'Viga'),
               cursorColor: backgroun,
               cursorHeight: 25,
@@ -230,7 +231,7 @@ class _Main_PageState extends State<Main_Page> {
               child: ListView.builder(
                 itemBuilder: (ctx,index){
 
-                   return Show(MovieJson.getPosterByIndex(genreList[index], jsonResponse), MovieJson.getNameByIndex(genreList[index], jsonResponse), genreList[index], double.parse(MovieJson.getRatingByIndex(genreList[index], jsonResponse)),MovieJson.getGenresByIndex(genreList[index], jsonResponse));
+                   return Show(MovieJson.getPosterByIndex(genreList[index], jsonResponse), MovieJson.getNameByIndex(genreList[index], jsonResponse), genreList[index], double.parse(MovieJson.getRatingByIndex(genreList[index], jsonResponse)),MovieJson.getGenresByIndex(genreList[index], jsonResponse),1);
 
                 },
                 itemCount: genreList.length,

@@ -18,7 +18,7 @@ class _See_AllState extends State<See_All> {
     return ListView.builder(
       itemBuilder: (context, index) {
         return Show(MovieJson.getPosterByIndex(index, jsonResponse),
-            MovieJson.getNameByIndex(index, jsonResponse), index,double.parse(MovieJson.getRatingByIndex(index, jsonResponse)),MovieJson.getGenresByIndex(index, jsonResponse));
+            MovieJson.getNameByIndex(index, jsonResponse), index,double.parse(MovieJson.getRatingByIndex(index, jsonResponse)),MovieJson.getGenresByIndex(index, jsonResponse),1);
       },
       itemCount: jsonResponse['all_movies'].length,
     );

@@ -68,7 +68,6 @@ class _Film_DetailsState extends State<Film_Details> {
       String ahmed='';
       for(String s in MovieJson.getGenresByIndex(ID, jsonResponse) ){
         ahmed+=s.toString();
-        print(s);
         if(s.toString() == MovieJson.getGenresByIndex(ID, jsonResponse).last){ break; }
         ahmed+=', ';
 

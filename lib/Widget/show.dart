@@ -9,7 +9,8 @@ class Show extends StatefulWidget {
   final int indx;
   final double Rate;
   final List<String> genres;
-  Show(this.image, this.name,this.indx,this.Rate,this.genres);
+  final  int fav;
+  Show(this.image, this.name,this.indx,this.Rate,this.genres,this.fav);
   @override
   _ShowState createState() => _ShowState();
 }
@@ -32,18 +33,17 @@ class _ShowState extends State<Show> {
         Current=OFF;
         stat=false;
         Sizee=25;
-        for(int i=0; i<Fav.length;i++){
-          if(widget.name==Fav[i]['name'])
-            {
-              Fav.removeAt(i);
-            }
+        for(int i=0;i<Fav.length;i++){
+          if(Fav[i]==widget.indx){
+            Fav.removeAt(i);
+          }
         }
 
       }else{
         Current=ONN;
         stat=true;
         Sizee=29;
-        Fav.add(Test.myfilm[widget.indx]);
+        Fav.add(widget.indx);
       }
     });
   }
@@ -86,7 +86,7 @@ class _ShowState extends State<Show> {
               children: [
                 SizedBox(width: MediaQuery.of(context).size.width*0.42,),
 
-                widget.indx!=-1?IconButton(icon: Icon(Icons.favorite,color: Current,size: Sizee.toDouble(),), onPressed: change):
+                widget.fav!=-1?IconButton(icon: Icon(Icons.favorite,color: Current,size: Sizee.toDouble(),), onPressed: change):
                Text('      \n\n'),
               ],
             ),

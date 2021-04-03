@@ -339,14 +339,14 @@
         }
       ],
       "watch": {
-        "1080p": "add_the_url"
+        "1080p": "https://eg.egybest.com/movie/bank-al-haz-2017/"
       },
       "download": {
-        "1080p": "add_the_url"
+        "1080p": "https://eg.egybest.com/movie/bank-al-haz-2017/"
       }
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Mulan",
       "poster_path": "https://static.wikia.nocookie.net/disney/images/e/e9/Mulan_%282020%2C_Disney%2B_Original_Poster%29.jpg/revision/latest?cb=20200809175515",
       "wposter_path": "https://miro.medium.com/max/1200/1*25l9VAXKaQrWoJhZkm4rJg.png",
@@ -403,7 +403,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Blue Elephant 2",
       "poster_path": "https://img.youm7.com/ArticleImgs/2019/7/21/302475-62e6b4f3-4fd3-4df0-b957-af7376c1482b.jpg",
       "wposter_path": "https://www.albayan.ae/polopoly_fs/1.3607971.1563397399!/image/image.jpg",
@@ -462,7 +462,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Venom",
       "poster_path": "https://www.shorouknews.com/uploadedimages/Other/original/dsadsffdfdsfg.jpg",
       "wposter_path": "https://www.flixwatch.co/wp-content/uploads/80991034.jpg",
@@ -516,7 +516,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "King Kong",
       "poster_path": "https://i.egycdn.com/pic/WmFwZndlY21ibUxOakVjd1Rva052bW12dHc.jpg",
       "wposter_path": "https://i.ytimg.com/vi/hhzrul_MU6c/maxresdefault.jpg",
@@ -578,7 +578,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Jumanji",
       "poster_path": "https://images-na.ssl-images-amazon.com/images/I/A1hFzTczzJL._AC_SL1500_.jpg",
       "wposter_path": "https://wallpaperaccess.com/full/2809156.jpg",
@@ -637,7 +637,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Jocker",
       "poster_path": "https://images-na.ssl-images-amazon.com/images/I/71H4EDEfcwL._AC_SL1500_.jpg",
       "wposter_path": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/03-the-joker-w1200-h630-1562679871.jpg",
@@ -691,7 +691,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "Moana",
       "poster_path": "https://play-lh.googleusercontent.com/AhS9Fu-BodjCEkNGM3eelhgdwexK1oAEWzZXS2GKB0S4ILPU2CG-1ZayIuUhi8uOD8k",
       "wposter_path": "https://www.denofgeek.com/wp-content/uploads/2016/11/moana_review_0.jpeg?resize=768%2C432",
@@ -757,7 +757,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "Trolls World Tour",
       "poster_path": "https://images-na.ssl-images-amazon.com/images/I/A1pmSXQr3UL._RI_.jpg",
       "wposter_path": "https://www.licensingmagazine.com/wp-content/uploads/2020/04/trolls-world-tour.jpg",
@@ -818,7 +818,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "The Son of Bigfoot",
       "poster_path" : "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Son_of_Bigfoot_Poster.jpg/220px-The_Son_of_Bigfoot_Poster.jpg",
       "wposter_path" : "https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_GB/studiocanal-SC_UK_025540_THESONOFBIGFOOT-Full-Image_GalleryBackground-en-GB-1512146307853._Vfff3ec8a976b6296e058cff98af1fef0_SX1080_.jpg",
@@ -875,7 +875,7 @@
       }
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Inside Out",
       "poster_path" : "https://lumiere-a.akamaihd.net/v1/images/rich_insideout_header_mobile_ce11b9a6.jpeg?region=0,0,640,952",
       "wposter_path" :"https://www.bibalex.org/SCIplanet/Attachments/Article/MediumImage/VDh66SjECT_20180311152512381.jpg",
@@ -940,7 +940,7 @@
       }
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "Coco",
       "poster_path" : "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg",
       "wposter_path" : "https://media.newyorker.com/photos/5b23d8ad0a4f5b3d66492b14/4:3/w_1483,h_1112,c_limit/Tolentino-Coco.jpg",
@@ -1001,7 +1001,7 @@
       }
     },
     {
-      "id": 19,
+      "id": 17,
       "name": "Frozen",
       "poster_path" : "https://lumiere-a.akamaihd.net/v1/images/p_frozen_18373_3131259c.jpeg?region=0%2C0%2C540%2C810",
       "wposter_path" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK8GkvqCCZHLKmOiuA5M2KOerPL1cakH4I0Q&usqp=CAU",
