@@ -36,6 +36,7 @@ final FormKey=GlobalKey<FormState>();
   }
 void vaild()
 {
+  print('ahmed');
   if(FormKey.currentState.validate())
   {
     print(User_Name +'  '+Password);
@@ -274,7 +275,9 @@ Container Show_Image(String image)
                                             height:MediaQuery.of(context).size.height*0.011,
                                           ),
                                           RaisedButton(
-                                            onPressed: vaild,
+                                            onPressed: (){
+                                              Navigator.of(context).pushNamed('go');
+                                            },
                                             color: kClourMove,
                                             child: Text(
                                               'LOG IN',

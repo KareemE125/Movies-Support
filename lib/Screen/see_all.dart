@@ -17,9 +17,12 @@ class _See_AllState extends State<See_All> {
   ListView list() {
     return ListView.builder(
       itemBuilder: (context, index) {
+
         return Show(MovieJson.getPosterByIndex(index, jsonResponse),
             MovieJson.getNameByIndex(index, jsonResponse), index,double.parse(MovieJson.getRatingByIndex(index, jsonResponse)),MovieJson.getGenresByIndex(index, jsonResponse),1);
-      },
+
+        },
+
       itemCount: jsonResponse['all_movies'].length,
     );
   }
@@ -39,7 +42,7 @@ class _See_AllState extends State<See_All> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('All Movies',style: TextStyle(fontFamily: 'Viga'),),
+        title: Text('All Movies',style: TextStyle(fontFamily: 'Viga',fontSize: 30),),
         centerTitle: true,
         backgroundColor: backgroun,
       ),

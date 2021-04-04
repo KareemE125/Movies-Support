@@ -62,7 +62,7 @@ class _Main_PageState extends State<Main_Page> {
         actions: [
 
           Container(
-            margin: EdgeInsets.only(right: MediaQuery.of( context).size.width*0.07,bottom: 5),
+            margin: EdgeInsets.only(right: MediaQuery.of( context).size.width*0.05,bottom: 5),
             padding: EdgeInsets.all(5.0),
             width: 250,
             child: TextField(

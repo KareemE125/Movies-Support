@@ -64,7 +64,7 @@ class _Movie_AppState extends State<Movie_App> {
         'see' : (context)=>See_All(),
         'go' : (context)=> Main_Page(),
       },
-      home:Goooo(),
+      home:Startt  (),
 
     );
   }
